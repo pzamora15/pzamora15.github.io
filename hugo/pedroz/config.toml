@@ -1,0 +1,4 @@
+baseURL = "https://pedroz.dev"
+languageCode = "en-us"
+title = "Pedro Zamora II"
+theme = "kross-hugo-portfolio-template"
