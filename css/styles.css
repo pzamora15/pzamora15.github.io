@@ -1,21 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 
 * {
     box-sizing: border-box;
 }
 body {
+    color: white;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    background: #222;
 }
 
+h1 {
+    font-weight: 100;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 /*header*/
 
 header{
-    margin-top: 1em;
+    vertical-align: middle; 
+    background: #222;
+    padding: 2vh 0;
 }
 
 nav ul{
@@ -30,9 +42,25 @@ nav li{
 }
 
 nav a {
-    font-weight: 900;
+    font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8rem;
     padding: .5em;
+    color: white;
+}
+
+.diag-banner {
+    text-align: left;
+    background-image: url(../img/diagbannerdark.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2em 0;
+    font-size: 3vw;
+}
+
+.diag-banner h1{
+    margin: 1em;
+    padding: 0 0;
 }
