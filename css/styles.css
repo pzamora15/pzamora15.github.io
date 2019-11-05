@@ -16,6 +16,11 @@ h1 {
     font-weight: 100;
 }
 
+body h1{
+    text-align: left;
+    padding: 0 2em;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -52,7 +57,7 @@ nav a {
 
 .diag-banner {
     text-align: left;
-    background-image: url(../img/diagbannerdark.png);
+    background-image: url(../img/diagbanner.jpg);
     background-size: cover;
     background-position: center;
     color: white;
