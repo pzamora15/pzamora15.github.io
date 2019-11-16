@@ -1,1 +1,5 @@
-need to add bootstrap example https://v4-alpha.getbootstrap.com/getting-started/introduction/
+Add to readme's of git projs, expand on portfolio.
+
+Add infinite scrolling and smooth scrollings, and active highlighting.
+
+Project drop down menu in header
