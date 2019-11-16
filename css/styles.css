@@ -8,17 +8,22 @@ body {
     color: white;
     margin: 0 0;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
     background: #222;
-}
-
-h1 {
     font-weight: 100;
 }
 
-body h1{
+h1 {
     text-align: left;
-    padding: 0 2em;
+}
+
+body h1{
+    font-weight: 400;
+}
+
+body h2{
+    font-weight: 100;
+    font-size: 120%;
 }
 
 img {
@@ -32,20 +37,20 @@ img {
 header{
     vertical-align: middle; 
     background: #222;
-    margin: 0 20em;
+    margin: 0 15vw;
     padding: 2em 0;
     border-bottom: 2px solid white;
 }
 
 nav ul{
     margin: 0;
-    padding 0;
+    padding: 0;
     list-style: none;
 }
 
 nav li{
     display: inline-block;
-    margin 1em;
+    margin: 1em;
 }
 
 nav a {
@@ -54,11 +59,11 @@ nav a {
     text-transform: uppercase;
     font-size: .8rem;
     padding: .5em;
-    color: white;\
+    color: white;
 }
 
 .about, .projects, .resume{
-    margin: 0 6em;
+    margin: 0 20vw;
 }
 
 
@@ -68,7 +73,7 @@ nav a {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 3em 0;
+    padding: 12vh 0;
     font-size: 3vw;
 }
 
@@ -83,4 +88,8 @@ nav a {
 
 .nav-right{
     float: right;
+}
+
+footer, .resume {
+    text-align: center;
 }
