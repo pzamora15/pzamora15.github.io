@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedro Zamora II</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+    <section class="diag-banner">
+    </section>
+
+    <header>
+        <nav>
+            <section class="nav-left">
+                <a href="">PEDRO ZAMORA II</a>
+            </section>
+            <section class="nav-right">
+                <a href="">About</a>
+                <a href="">Projects</a>
+                <a href="">Resume</a>
+            </section>
+        </nav>
+
+    </header>
+
+    <section class="about">
+        <h1>About</h1>
+        <p>
+            Nice to meet you. Currently, I am a student at the College of Engineering within the 
+            University of Michigan. I'm part way through my second year here, working towards a 
+            BSE in Computer Science and a Minor in Business Administration. I created this website
+            as a side project, aiming for it to serve as a portfolio representing my work.
+            <br>
+            <br>
+            I am a Michigan native, an avid rock climber, and am really good at Rocket League. I've
+            learned that I enjoy people, engineering, and the thrill of an occasional coding sprint.
+            <br>
+            <br>
+            Feel free to check out some of my projects below!
+            <br>
+            <br>
+
+
+        </p>
+    </section>
+
+    <section class="projects">
+        <h1>Projects</h1>
+        <h2>Smart Mirror</h2>        
+        <h2>Weather Balloon Payload</h2>
+        <h2>Website Portfolio</h2>
+        <h2>Unbeatable Tic-Tac-Toe</h2>
+    </section>
+
+    <section class="resume">
+        <h1>Resume</h1>
+        <embed src="src/resume1.pdf" width="750px" height="1200px" />
+    </section>
+
+    <footer>
+        <a href="">Pedro Zamora II. HTML / CSS / JavaScript</p>
+    </footer>
+</body>
+
+</html>
