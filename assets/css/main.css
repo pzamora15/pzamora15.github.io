@@ -2826,9 +2826,9 @@ input, select, textarea {
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/diag.JPG");
-			background-size: auto,							cover;
+			background-attachment: fixed;
+			background-image: url("../../images/diag.JPG");
+			background-size: cover;
 		}
 
 			.main.style2 a {
@@ -3276,7 +3276,8 @@ input, select, textarea {
 			}
 
 				.main.style2 {
-					background-attachment: scroll;
+					background-attachment: fixed;
+					background-size: 100% auto;
 				}
 
 		/* Header */
