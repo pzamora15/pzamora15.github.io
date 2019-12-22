@@ -2389,11 +2389,14 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			font-size: 80%;
+			text-align: center;
 		}
 
 			.image.fit img {
 				width: 100%;
 			}
+			
 
 /* List */
 
@@ -2590,6 +2593,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 2.5em;
 			text-align: center;
+			transform: translate(50%);
 		}
 
 			ul.major-icons li .icon {
@@ -2827,7 +2831,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("../../images/diag.JPG");
+			background-image: url("../../assets/diag.jpg");
 			background-size: cover;
 		}
 
@@ -3011,7 +3015,7 @@ input, select, textarea {
 		}
 
 		#header p {
-			margin: 1em 0 0 0;
+			margin: 1em 0 1em 0;
 		}
 
 		#header .actions {
@@ -3261,6 +3265,7 @@ input, select, textarea {
 
 			ul.major-icons li {
 				padding: 2em;
+				transform: translate(0);
 			}
 
 				ul.major-icons li .icon {
@@ -3307,7 +3312,8 @@ input, select, textarea {
 		/* List */
 
 			ul.major-icons li {
-				padding: 2em;
+				padding: 2em;				
+				transform: translate(0);
 			}
 
 				ul.major-icons li .icon {
@@ -3378,6 +3384,7 @@ input, select, textarea {
 
 			ul.major-icons li {
 				padding: 1.5em;
+				transform: translate(0);
 			}
 
 				ul.major-icons li .icon {
