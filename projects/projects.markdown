@@ -6,6 +6,8 @@ title: Projects
 Project Documentation
 =======================
 
+---
+
 [pedroz.dev](https://pedroz.dev/)
 
 This is where you can find documentation on most of my projects, categorized by year. I hope you find them interesting, as I've had a lot of fun working on these. Use the sidebar table of contents for easy navigation.
@@ -49,12 +51,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada 
 
 Treasure Hunt
 -----------------------
+EECS 281, Data Structures and Algorithms.
 
 Log Manager
 -----------------------
+EECS 281, Data Structures and Algorithms.
 
 Pokemon Path Finder
 -----------------------
+EECS 281, Data Structures and Algorithms.
 
 
 <!---###########################################################################
@@ -62,7 +67,7 @@ Pokemon Path Finder
 
 2018
 =======================
-
+testtest
 
 <!---###########################################################################
 ############################################################################--->
