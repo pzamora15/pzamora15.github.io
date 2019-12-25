@@ -14,20 +14,23 @@ Thanks for reading,
 
 Pedro
 
+2020
+----------------------
+Soon™
+
 2019
-=======================
-
-
-
-
+----------------------
 
 2018
-=======================
+----------------------
+
+2017
+----------------------
 
 
 
 Acknowledgements
-=======================
-This documentation uses [Primer Spec](https://github.com/eecs485staff/primer-spec), a [Jekyll](https://github.com/jekyll/jekyll) theme by the UM EECS485 staff designed specifically for long project documentation. It is based on the original Github Primer theme.
+----------------------
+This documentation uses [Primer Spec](https://github.com/eecs485staff/primer-spec), a [Jekyll](https://github.com/jekyll/jekyll) theme created by the UM's EECS485 staff. It was designed specifically for long project documentation and is based on the original Github Primer theme. My website landing page, [pedroz.dev](https://pedroz.dev/), runs on a heavily edited version of HTML5UP's [Photon](https://html5up.net/photon) theme.
 
-My website portfolio, [pedroz.dev](https://pedroz.dev/), runs on a heavily edited version of HTML5UP's [Photon](https://html5up.net/photon) theme.
+Thanks for reading through my work. Feel free to contact me if you have any questions.
