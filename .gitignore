@@ -1,8 +1,5 @@
-# This .gitignore file is for locally-rendered Jekyll sites.
-
-# Locally rendered website
-_site
-
-# Other Jekyll files
-.sass-cache
-.jekyll-metadata
+projects/_site
+projects/.sass-cache
+projects/.jekyll-cache
+projects/.jekyll-metadata
+projects/vendor
