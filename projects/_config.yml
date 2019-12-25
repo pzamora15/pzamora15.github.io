@@ -25,7 +25,7 @@ baseurl: "/projects" # the subpath of your site, e.g. /blog
 url: "https://pedroz.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: eecs485staff/primer-spec
+remote_theme: pedroz2/primer-spec
 plugins:
     - jekyll-remote-theme
 
