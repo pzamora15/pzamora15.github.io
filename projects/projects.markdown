@@ -16,17 +16,18 @@ Happy reading,
 
 -Pedro
 
-<!---###########################################################################
-############################################################################
 
 2020
 =======================
 
-Soon™
---->
+Cryptography Analysis
+-----------------------
+Write up coming soon.
 
-<!---###########################################################################
-############################################################################--->
+LC-2K Instruction-Set Assembler
+-----------------------
+Write up coming soon.
+
 
 2019
 =======================
@@ -46,6 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada 
 Weather Balloon
 -----------------------
 ENGR100, Electronics for Atmospheric and Space Measurements.
+
+add poster, final report, etc
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
 
