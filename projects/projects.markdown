@@ -17,7 +17,19 @@ Happy reading,
 -Pedro
 
 
-2020
+
+
+
+
+
+
+
+
+
+
+
+
+•2020•
 =======================
 
 Cryptography Analysis
@@ -29,7 +41,19 @@ LC-2K Instruction-Set Assembler
 Write up coming soon.
 
 
-2019
+
+
+
+
+
+
+
+
+
+
+
+
+•2019•
 =======================
 
 Personal Website
@@ -60,31 +84,77 @@ Log Manager
 -----------------------
 EECS 281, Data Structures and Algorithms.
 
-Pokemon Path Finder
+Path Finder
 -----------------------
 EECS 281, Data Structures and Algorithms.
 
 
-<!---###########################################################################
-############################################################################--->
 
-2018
+
+
+
+
+
+
+
+
+
+
+
+•2018•
 =======================
-testtest
 
-<!---###########################################################################
-############################################################################--->
+Euchre
+-----------------------
 
-2017
+Content-Aware Image Resizing
+-----------------------
+
+Piazza Post Classifier
+-----------------------
+
+Reverse Polish Notation Calculator
+-----------------------
+
+gLyft
+-----------------------
+
+
+
+
+
+
+•2017•
 =======================
 
+Robocode
+-----------------------
+
+Prime Number Calculator
+-----------------------
+
+RPS-101
+-----------------------
+
+Blackjack
+-----------------------
 
 
-<!---###########################################################################
-############################################################################--->
+•2016•
+=======================
+
+Joining CyberPatriot
+-----------------------
+
+FC Barcelona Fanclub
+-----------------------
+
+
+
+
 
 Acknowledgements
 =======================
-This documentation uses [Primer Spec](https://github.com/eecs485staff/primer-spec), a [Jekyll](https://github.com/jekyll/jekyll) theme created by the UM's EECS485 staff. It was designed specifically for long project documentation and is based on the original Github Primer theme. My website landing page, [pedroz.dev](https://pedroz.dev/), runs on a heavily edited version of HTML5UP's [Photon](https://html5up.net/photon) theme.
+This documentation uses my version of [Primer Spec](https://github.com/eecs485staff/primer-spec), a [Jekyll](https://github.com/jekyll/jekyll) theme created by the UM's EECS485 staff. It was designed specifically for long project documentation and is based on the original Github Primer theme. My website landing page, [pedroz.dev](https://pedroz.dev/), runs on a heavily edited version of HTML5UP's [Photon](https://html5up.net/photon) theme.
 
 Thanks for reading through my work. Feel free to contact me if you have any questions.
