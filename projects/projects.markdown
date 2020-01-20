@@ -36,7 +36,7 @@ Cryptography Analysis
 -----------------------
 *Python.*
 
-Write up coming soon. Include joining cyber
+Write up coming soon.
 
 LC-2K Instruction-Set Assembler
 -----------------------
@@ -72,13 +72,25 @@ Weather Balloon Payload
 
 INSERT CAROUSEL
 
-This project was probably my largest undertaking to date. Similarly, it was also my most rewarding.
+[View Final Report](/projects/weather_balloon/final_report.pdf)  
+[View Poster](/projects/weather_balloon/team12_poster.pdf)  
+[View Github](https://github.com/pedroz2/weather_balloon)
+
+This project is probably my favorite project to date. I am _very_ proud of the final report.
+
+This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. We used Altium to design a custom PCB, which we then had printed to allow for a permanent board with which we can solder our sensors to. In order to facilitate the use of our sensors in harmony, we created an C++ library to use them more easily - it won one of the class awards. Our group elected to include two extra sensors, the MPU-9250 Gyro/Accelerometer/Compass and the BMP-280 Barometer, in hopes of simultaneously measuring accerelation and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth's atmosphere. The intended real world application of this was to record the expected turbulance experienced by commerical airliners, and more specifically, how to avoid it. 
+
+
 
 Smart Mirror
 -----------------------
 *JavaScript, Electron.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
+INSERT CAROUSEL
+
+[MagicMirror](https://magicmirror.builders/)
+
+I started this project as a direct answer to one of my daily problems.
 
 
 
