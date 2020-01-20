@@ -8,7 +8,7 @@ Project Documentation
 
 ---
 
-[pedroz.dev](https://pedroz.dev/)
+[pedroz.dev](index.html)
 
 This is where you can find documentation on most of my projects, categorized by year. I hope you find them interesting, as I've had a lot of fun working on these. Use the sidebar table of contents for easy navigation.
 
@@ -29,7 +29,7 @@ Happy reading,
 
 
 
-•2020•
+------ 2020 ------
 =======================
 
 Cryptography Analysis
@@ -63,17 +63,14 @@ Write up coming soon.
 
 
 
-•2019•
+------ 2019 ------
 =======================
 
 Weather Balloon Payload
 -----------------------
 *Arduino, C++.*
 
-[View Final Report](https://pedroz.dev/projects/weather_ballon/final_report.pdf)  
-[View Poster](https://pedroz.dev/projects/weather_ballon/team12_poster.pdf)
-![alt text](https://pedroz.dev/projects/weather_ballon/team.jpg "Team Picture")
-![alt text](https://pedroz.dev/projects/weather_ballon/pcb.JPG "PCB Picture")
+INSERT CAROUSEL
 
 This project was probably my largest undertaking to date. Similarly, it was also my most rewarding.
 
@@ -123,7 +120,7 @@ Write up coming soon.
 
 
 
-•2018•
+------ 2018 ------
 =======================
 
 Euchre
@@ -160,7 +157,7 @@ Write up coming soon.
 
 
 
-•2017•
+------ 2017 ------
 =======================
 
 Robocode
@@ -179,7 +176,7 @@ Blackjack
 -----------------------
 *Java.*
 
-•2016•
+------ 2016 ------
 =======================
 
 FC Barcelona Fanclub
