@@ -76,9 +76,9 @@ INSERT CAROUSEL
 [View Poster](/projects/weather_balloon/team12_poster.pdf)  
 [View Github](https://github.com/pedroz2/weather_balloon)
 
-This project is probably my favorite project to date. I am _very_ proud of the final report.
+This project is probably my favorite to date. The final report turned out _wonderfully_.
 
-This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. We used Altium to design a custom PCB, which we then had printed to allow for a permanent board with which we can solder our sensors to. In order to facilitate the use of our sensors in harmony, we created an C++ library to use them more easily - it won one of the class awards. Our group elected to include two extra sensors, the MPU-9250 Gyro/Accelerometer/Compass and the BMP-280 Barometer, in hopes of simultaneously measuring accerelation and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth's atmosphere. The intended real world application of this was to record the expected turbulance experienced by commerical airliners, and more specifically, how to avoid it. 
+This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer and the BMP-280 Barometer, in hopes of simultaneously measuring accerelation and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth's atmosphere. The intended real world application of this was to record the expected turbulance experienced by commerical airliners, and more specifically, how to avoid it. We used Altium to design a custom PCB, which we then had printed to allow for a permanent board with which we can solder our core sensors to. In order to facilitate the use of our sensors in harmony, we created an C++ library to use them more efficiently - it actually won one of the class awards. 
 
 
 
