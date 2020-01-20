@@ -34,19 +34,19 @@ Happy reading,
 
 Cryptography Analysis
 -----------------------
-EECS 388, Introduction to Computer Security. Python3.
+*Python3.*
 
 Write up coming soon.
 
 LC-2K Instruction-Set Assembler
 -----------------------
-EECS 370, Introduction to Computer Organization. C.
+*C.*
 
 Write up coming soon.
 
 Android Workout Timer
 -----------------------
-Self-Project. Android Studio, Kotlin.
+*Android Studio, Kotlin.*
 
 Write up coming soon.
 
@@ -68,19 +68,19 @@ Write up coming soon.
 
 Personal Website
 -----------------------
-Self Project. HTML/CSS, Javascript, Jekyll, Ruby.
+*HTML/CSS, JavaScript, Jekyll, Ruby.*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
 
 Smart Mirror
 -----------------------
-Self Project. Javascript, Electron.
+*JavaScript, Electron.*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
 
-Weather Balloon
+Weather Balloon Payload
 -----------------------
-ENGR100, Electronics for Atmospheric and Space Measurements. Arduino, C++.
+*Arduino, C++.*
 
 add poster, final report, etc
 
@@ -88,19 +88,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada 
 
 Treasure Hunt
 -----------------------
-EECS 281, Data Structures and Algorithms. C++.
+*C++.*
 
 Write up coming soon.
 
 Log Manager
 -----------------------
-EECS 281, Data Structures and Algorithms. C++.
+*C++.*
 
 Write up coming soon.
 
 Path Finder
 -----------------------
-EECS 281, Data Structures and Algorithms. C++.
+*C++.*
 
 Write up coming soon.
 
@@ -122,31 +122,31 @@ Write up coming soon.
 
 Euchre
 -----------------------
-EECS 280, Programming & Data Structures. C++.
+*C++.*
 
 Write up coming soon.
 
 Content-Aware Image Resizing
 -----------------------
-EECS 280, Programming & Data Structures. C++.
+*C++.*
 
 Write up coming soon.
 
 Piazza Post Classifier
 -----------------------
-EECS 280, Programming & Data Structures. C++.
+*C++.*
 
 Write up coming soon.
 
 Reverse Polish Notation Calculator
 -----------------------
-EECS 280, Programming & Data Structures. C++.
+*C++.*
 
 Write up coming soon.
 
 gLyft
 -----------------------
-ENGR 101, Introduction to Programming. C++.
+*C++.*
 
 Write up coming soon.
 
@@ -159,30 +159,29 @@ Write up coming soon.
 
 Robocode
 -----------------------
-AP Computer Science. Java.
+*Java.*
 
 Prime Number Calculator
 -----------------------
-AP Computer Science. Java.
+*Java.*
 
 RPS-101
 -----------------------
-AP Computer Science. Java.
+*Java.*
 
 Blackjack
 -----------------------
-AP Computer Science. Java.
+*Java.*
 
 •2016•
 =======================
 
 Joining CyberPatriot
 -----------------------
-Woodhaven High School. Cyber Security.
 
 FC Barcelona Fanclub
 -----------------------
-Self-Project. HTML/CSS.
+*HTML/CSS.*
 
 
 
