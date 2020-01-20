@@ -3275,8 +3275,11 @@ input, select, textarea {
 			}
 
 				.main.style2 {
+					background-color: #333;
+					color: rgba(255, 255, 255, 0.75);
 					background-attachment: fixed;
-					background-size: 100% auto;
+					background-image: url("../../assets/diag.jpg");
+					background-size: cover;
 				}
 
 		/* Header */
@@ -3320,6 +3323,12 @@ input, select, textarea {
 
 			.main {
 				padding: 5em 3em 3em 3em ;
+			}
+
+			.main.style2 {
+				background-attachment: fixed;
+				background-image: url("../../assets/diag.jpg");
+				background-size: cover;
 			}
 
 		/* Header */
