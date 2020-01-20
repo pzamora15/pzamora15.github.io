@@ -34,9 +34,9 @@ Happy reading,
 
 Cryptography Analysis
 -----------------------
-*Python3.*
+*Python.*
 
-Write up coming soon.
+Write up coming soon. Include joining cyber
 
 LC-2K Instruction-Set Assembler
 -----------------------
@@ -66,11 +66,16 @@ Write up coming soon.
 •2019•
 =======================
 
-Personal Website
+Weather Balloon Payload
 -----------------------
-*HTML/CSS, JavaScript, Jekyll, Ruby.*
+*Arduino, C++.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
+[View Final Report](https://pedroz.dev/projects/weather_ballon/final_report.pdf)  
+[View Poster](https://pedroz.dev/projects/weather_ballon/team12_poster.pdf)
+![alt text](https://pedroz.dev/projects/weather_ballon/team.jpg "Team Picture")
+![alt text](https://pedroz.dev/projects/weather_ballon/pcb.JPG "PCB Picture")
+
+This project was probably my largest undertaking to date. Similarly, it was also my most rewarding.
 
 Smart Mirror
 -----------------------
@@ -78,13 +83,14 @@ Smart Mirror
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
 
-Weather Balloon Payload
------------------------
-*Arduino, C++.*
 
-add poster, final report, etc
+
+Personal Website
+-----------------------
+*HTML/CSS, JavaScript, Jekyll, Ruby.*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
+
 
 Treasure Hunt
 -----------------------
@@ -175,9 +181,6 @@ Blackjack
 
 •2016•
 =======================
-
-Joining CyberPatriot
------------------------
 
 FC Barcelona Fanclub
 -----------------------
