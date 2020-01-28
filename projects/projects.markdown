@@ -38,6 +38,12 @@ Cryptography Analysis
 
 Write up coming soon.
 
+Fakebook Database
+-----------------------
+*SQL.*
+
+Write up coming soon.
+
 LC-2K Instruction-Set Assembler
 -----------------------
 *C.*
@@ -98,7 +104,7 @@ Personal Website
 -----------------------
 *HTML/CSS, JavaScript, Jekyll, Ruby.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus malesuada tempor. Nunc a nisl eget lorem eleifend fermentum eu quis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque elementum nisl, non semper orci imperdiet nec. Nulla ullamcorper risus a egestas sodales. Curabitur scelerisque ornare aliquet.
+This project
 
 
 Treasure Hunt
