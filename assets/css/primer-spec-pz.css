@@ -6138,7 +6138,7 @@ pre {
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .prev:active, .next:hover, .next:active {
+  .prev:hover, .prev:focus, .prev:active, .next:hover, .next:focus, .next:active {
 	background-color: rgba(0,0,0,0.8);
   }
   
