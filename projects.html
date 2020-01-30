@@ -115,7 +115,7 @@
 
 <p>This project is probably my favorite to date. The final report turned out <em>wonderfully</em>.</p>
 
-<p>This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer and the BMP-280 Barometer, in hopes of simultaneously measuring accerelation and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real world application of this was to record the expected turbulance experienced by commerical airliners, and more specifically, how to avoid it. We used Altium to design a custom PCB, which we then had printed to allow for a permanent board with which we can solder our core sensors to. In order to facilitate the use of our sensors in harmony, we created an C++ library to use them more efficiently - it actually won one of the class awards.</p>
+<p>This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer, in hopes of simultaneously measuring acceleration and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. We used Altium to design a custom PCB and then had it printed to allow for a permanent board that would house our package sensors. To facilitate the use of our sensors, we created a C++ library to use them more efficiently - it won one of the class awards.</p>
 
 <h2 id="smart-mirror">Smart Mirror</h2>
 <p><em>JavaScript, Electron.</em></p>
@@ -145,7 +145,7 @@
 <p><a href="https://magicmirror.builders/">MagicMirror</a><br>
 <a href="https://github.com/pedroz2/smart_mirror">View Github</a></p>
 
-<p>I started this project as a direct answer to one of my daily problems, and it actually turned out pretty well. I did a few weeks of research (mostly Youtube Tutorials) and decided to start in the summer, right before school started. For me, the hardest part was actually creating a frame that would fit the mirror since I had no previous experience with wood working. After that, I was able to connect everything up a set up a Raspberry PI server that I could remote into and install the Magic Mirror framework. I spent about a month configuring this huge JavaScript library, even using some third-party code (specifically for the calendar), and tried to get everything to my liking. I am pretty proud of the result. I can finally see the weather, date, and whatever I have to do that day in the mirror! </p>
+<p>I started this project as a direct answer to one of my daily problems, and it turned out pretty well. I did a few weeks of research (mostly Youtube Tutorials) and decided to start in the summer, right before school started. For me, the hardest part was creating a frame that would fit the mirror since I had no previous experience with woodworking. After that, I was able to connect everything up a set up a Raspberry PI server that I could remote into and install the Magic Mirror framework. I spent about a month configuring this huge JavaScript library, even using some third-party code (specifically for the calendar), and tried to get everything to my liking. I am pretty proud of the result. I can finally see the weather, date, and whatever I have to do that day in the mirror! </p>
 
 <h2 id="personal-website">Personal Website</h2>
 <p><em>HTML/CSS, JavaScript, Jekyll, Ruby.</em></p>
@@ -155,28 +155,28 @@
 <p><a href="https://pedroz.dev/">pedroz.dev</a><br>
   <a href="https://github.com/pedroz2/pedroz2.github.io">View Github</a></p>
 
-<p>This was a fun project that started out as a way to further develop my front-end skills and ended as a moderate obsession. I am pretty proud with how it turned out, it actually looks pretty professional given the expectations I had going into this project. It started out as a React template website, then I started using Hugo as a static-site generator. I found the themes system in Hugo to be too much of a hassle so I switched to Jekyll in hopes of remedying that (it didn't). I gave up on trying to use somebody else's theme and finally made my own. Now I have this Jekyll/HTML/CSS hybrid-frankenstein website that uses my version of <a href="https://github.com/eecs485staff/primer-spec">EECS485's Project Specification theme</a>. I tailored the base of the theme to my website, but still kept the same basic design in hopes of making my project specification's easier to read.</p>
+<p>This was a fun project that started as a way to further develop my front-end skills and ended as a moderate obsession. I am pretty proud of how it turned out, it looks pretty professional given the expectations I had going into this project. It first started as a React template website, but then I started using Hugo as a static site generator. I found the themes system in Hugo to be too much of a hassle so I switched to Jekyll in hopes of remedying that (it didn't). I gave up on trying to use somebody else's theme and finally made my own. Now I have this Jekyll/HTML/CSS hybrid-Frankenstein website that uses my version of <a href="https://github.com/eecs485staff/primer-spec">EECS485's Project Specification theme</a>. I tailored the base of the theme to my website, but still kept the same basic design in hopes of making my project specification's easier to read.</p>
 
 <h2 id="treasure-hunt">Treasure Hunt</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/treasure_hunt.jpg" alt="Treasure Hunt" title="Treasure Hunt" style="max-width:70%">
-<br>
-<p>This project was a deep dive on specific data structures, specifically the stack and queue. It actually uses a deque (double-ended queue), but we wrapped it such that it only had stack/queue functionality. In summary, we were given a 2D 100x100 grid of a treasure map with land, water, obstructions, and the treasure. Our task was to find the treasure coordinate and more importantly, the correctly path to that coordinate depending on the search mode used (Stack vs. Queue searching strategies). This was my first project you couldn't just code in one sitting - you needed to actually plan and think about the correct Data Structures to use for each part of the program.</p>
+<br><br>
+<p>This project was a deep dive on specific data structures, specifically the stack and queue. It uses a deque (double-ended queue), but we wrapped it such that it only had stack/queue functionality. In summary, we were given a 2D 100x100 grid of a treasure map with land, water, obstructions, and the treasure. Our task was to find the treasure coordinate and more importantly, the correct path to that coordinate depending on the search mode used (Stack vs. Queue searching strategies). This was my first project you couldn't just code in one sitting - you needed to plan and think about the correct Data Structures to use for each part of the program.</p>
 
 <h2 id="log-manager">Log Manager</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/logmanager.jpg" alt="Log Manager" title="Log Manager" style="max-width:70%">
-<br>
-<p>This project consisted of a user inputting a <em>huge</em> file of logs. Our task was to organize and index it, then allow the user to perform a handle of commands (such as print, sort, keyword search, time search, etc) to output a text file with only the logs they want. The main learning goal of this project was to understand time complexities of different data structures and algorithms, as we had to fit all of the commands given within their relevant time allotment to pass the test. </p>
+<br><br>
+<p>This project consisted of a user inputting a <em>huge</em> file of logs. Our task was to organize and index it, then allow the user to perform a handle of commands (such as print, sort, keyword search, time search, etc) to output a text file with only the logs they want. The main learning goal of this project was to understand the time complexities of different data structures and algorithms, as we had to fit all of the commands given within their relevant time allotment to pass the test. </p>
 
 <h2 id="path-finder">Path Finder</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/pathfinder.jpg" alt="Path Finder" title="Path Finder" style="max-width:70%">
-<br>
-<p>This project was aimed to reinforce the usage of path finding algorithms like Djikstra, Kruskal, and Prims, as well as reinforce the usage of more advanced programming techniques like Branch and Bound, Backtracing, and Dynamic Programming. We were given coordinates in a 2d map and had to find things such as the minimum spanning tree (shortest path) between two points, the most optimal path between all points with a given heuristic (for this project, we used nearest arbitrary insertion), and a moderately optimal path in a much faster time.  </p>
+<br><br>
+<p>This project was aimed to reinforce the usage of pathfinding algorithms like Djikstra, Kruskal, and Prims, as well as reinforce the usage of more advanced programming techniques like Branch and Bound, Backtracing, and Dynamic Programming. We were given coordinates in a 2d map and had to find things such as the minimum spanning tree (shortest path) between two points, the most optimal path between all points with a given heuristic (for this project, we used nearest arbitrary insertion), and a moderately optimal path in a much faster time.  </p>
 
 <h1 id="-2018-">—— 2018 ——</h1>
 
@@ -184,52 +184,52 @@
 <p><em>C++.</em></p>
 
 <img src="/assets/euchre.png" alt="Euchre" title="Euchre" style="max-width:70%">
-
-<p>I still have fond memories of this project. It essentially served as a Euchre (a complex card game popular in Michigan) simulator that has either 2 players playing against each other, or a few flavors of AI to play against. It was my first project that was too large and complex to this about all at once. You had to break it up and use a wonderful thing called abstraction, which basically assumes that the other components of your program would work correctly (spoiler: they didn't). This was probably one of my most memorable projects, as me and my partner stayed up to coding until around 5am to finish the project early for an upcoming busy week. It had countless edge cases that you had to account for, and was my first introduction to more advanced debugging tools.  </p>
+<br><br>
+<p>I still have fond memories of this project. It essentially served as a Euchre (a complex card game popular in Michigan) simulator that has either 2 players playing against each other, or a few flavors of AI to play against. It was my first project that was too large and complex to this about all at once. You had to break it up and use a wonderful thing called abstraction, which assumes that the other components of your program would work correctly (spoiler: they didn't). This was probably one of my most memorable projects, as my partner and I stayed up to coding until around 5 am to finish the project early for an upcoming busy week. It had countless edge cases that you had to account for and was my first introduction to more advanced debugging tools.  </p>
 
 <h2 id="content-aware-image-resizing">Content-Aware Image Resizing</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/content_resize.jpg" alt="Content Resize" title="Content Resize" style="max-width:70%">
-
-<p>The Piazza Post Classifier took in a large amount of forum posts from Piazza and used machine learning/natural language processing with a dataset of prelabeled Piazza posts to generate connections between common keywords and their labels. Furthur posts can be entered into the program which then returns its prediction on the suggestest topic the classifier thinks the post is from. I enjoyed this project as it was my first introduction to big data and using machine learning techniques to process and use that data. It was a neat project that had a really satisfying end result.</p>
+<br><br>
+<p> This was a tool that essentially parsed individual pixels of an image and calculated the contrast between its surrounding pixels. Depending on the input you give the program (output length/width, crop/resize), it uses the contrast between sections of the image to decide where we can afford to resize an image without distorting its significant parts too much. The idea behind this project was to essentially find unimportant areas in the image that we can use to resize the image in hopes of changing the contents of the image as little as possible from the perspective of the viewer.</p>
 
 <h2 id="piazza-post-classifier">Piazza Post Classifier</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/piazzaclassifier.jpg" alt="Piazza Classifier" title="Piazza Classifier" style="max-width:70%">
-
-<p>Write up coming today! </p>
+<br><br>
+<p>The Piazza Post Classifier took in a large number of forum posts from Piazza and used machine learning/natural language processing with a dataset of prelabeled Piazza posts to generate connections between common keywords and their labels. Furthur posts can be entered into the program which then returns its prediction on the suggested topic the classifier thinks the post is from. I enjoyed this project as it was my first introduction to big data and using machine learning techniques to process and use that data. It was a neat project that had a satisfying result.</p>
 
 <h2 id="reverse-polish-notation-calculator">Reverse Polish Notation Calculator</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/rpn.jpg" alt="Reverse Polish Notation" title="Reverse Polish Notation" style="max-width:70%">
-
-<p>The idea behind the Reverse Polish Notation (RPN) Calculator is that it takes the arguments first, and then the operations that will be performed between them. Obviously, modern calcuators do that in reverse. For example, 1+2-3 would be 1,2+3- in the RPN calcuator. This calculator was meant to demostrate and teach the stack data structure, which we also made by creating a wrapper on the C++ vector library. </p>
+<br><br>
+<p>The idea behind the Reverse Polish Notation (RPN) Calculator is that it takes the arguments first, and then the operations that will be performed between them. Modern calculators do that in reverse - for example, 1+2-3 would be 1,2+3- in the RPN calculator. This project was meant to demonstrate and teach the stack data structure, which we also made by creating a wrapper on the C++ vector library. </p>
 
 <h2 id="breaking-coefficient">Breaking Coefficient</h2>
 <p><em>C++.</em></p>
 
 <img src="/assets/shuttle.JPG" alt="shuttle" title="shuttle" style="max-width:70%">
-
+<br><br>
 <p>This program essentially simulated a shuttle landing with given system parameters including initial velocity, air braking coefficient, braking distance, and a few others. It would then return the most optimal braking coefficient - one that would use up as much of the runway as possible to reduce passenger discomfort, but also still result in a safe landing. The purpose of this project was essentially to get a grasp on using a program to help solve complex math and physics problems - it worked pretty well.</p>
 
 <h1 id="-2017-">—— 2017 ——</h1>
 
-<h2 id="robocode">Robocode</h2>
+<h2 id="robocode">Robocode Robot</h2>
 <p><em>Java.</em></p>
 
 <img src="/assets/robocode.png" alt="Robocode" title="Robocode" style="max-width:70%">
-
-<p>Write up coming today! </p>
+<br><br>
+<p>Robocode is a simple to use, educational Java framework that allows you to create autonomous robots. They would be put in a gladiator-esque arena and fight against other robots to death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. You could make your robot have some personality as well - I know a few people who made their robot drive in circles, and then when one person got close enough it chased them down with melee attacks until they were dead. It was a pretty cool project that was my first introduction in using other people's libraries and frameworks in your code.</p>
 
 
 <h2 id="prime-number-calculator">Prime Number Calculator</h2>
 <p><em>Java.</em></p>
 
 <img src="/assets/prime.jpg" alt="Prime Number Calculator" title="Prime Number Calculator" style="max-width:70%">
-
+<br><br>
 <p>Write up coming today! </p>
 
 
@@ -237,7 +237,7 @@
 <p><em>Java.</em></p>
 
 <img src="/assets/rps101.jpg" alt="RPS-101" title="RPS-101" style="max-width:70%">
-
+<br><br>
 <p>Write up coming today! </p>
 
 
@@ -245,7 +245,7 @@
 <p><em>Java.</em></p>
 
 <img src="/assets/blackjack.jpg" alt="Blackjack" title="Blackjack" style="max-width:70%">
-
+<br><br>
 <p>Write up coming today! </p>
 
 
@@ -258,7 +258,7 @@
 <br><br>
 <p><a href="/projects/fcb_website/FCBarca_main.html">My First Website</a></p>
 
-<p>When I first looked back at my old website to add it to this portfolio, the first thing I thought was "I remember this looking better". It was my first introduction to anything relevant to programming (if you consider HTML a programming language). I made it watching some YouTube tutorials when I was first learning to code. It's not anything fancy (quite the opposite, actually), but it got the job done. It uses a simple container-based styling and I remember being pretty happy with it when I finished. Who knows why FC Barcelona haven't given me a contract yet?  </p>
+<p>When I first looked back at my old website to add it to this portfolio, the first thing I thought was "I remember this looking better". It was my first introduction to anything relevant to programming (if you consider HTML a programming language). I made it watching some YouTube tutorials when I was first learning to code. It's not anything fancy (quite the opposite, actually), but it got the job done. It uses a simple container-based styling and I remember being pretty happy with it when I finished. Who knows why FC Barcelona hasn't given me a contract yet?  </p>
 <hr>
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This documentation uses my version of <a href="https://github.com/eecs485staff/primer-spec">Primer Spec</a>, a <a href="https://github.com/jekyll/jekyll">Jekyll</a> theme created by the UM’s EECS485 staff. It was designed specifically for long project documentation and is based on the original Github Primer theme. My website landing page, <a href="https://pedroz.dev/">pedroz.dev</a>, runs on a heavily edited version of HTML5UP’s <a href="https://html5up.net/photon">Photon</a> theme.</p>
