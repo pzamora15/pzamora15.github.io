@@ -32,29 +32,77 @@ Happy reading,
 ------ 2020 ------
 =======================
 
+SQL Grace Hash Join
+-----------------------
+*C++.*
+
+Coming soon!
+
+LC-2K Flexible Cache Simulator
+-----------------------
+*C.*
+
+Coming soon!
+
+Buffer Overflow Analysis
+-----------------------
+*Python.*
+
+Coming soon!
+
+LC-2K Pipelined Processor
+-----------------------
+*C.*
+
+Coming soon!
+
+Network Protocol Attacks
+-----------------------
+*Python.*
+
+Coming soon!
+
+Fakebook MongoDB Database
+-----------------------
+*MongoDB.*
+
+Coming soon!
+
+LC-2K Object File Linker
+-----------------------
+*C.*
+
+Coming soon!
+
+Website Security Penetration Test
+-----------------------
+*Python.*
+
+Coming soon!
+
 Cryptography Analysis
 -----------------------
 *Python.*
 
-Write up coming soon.
+Coming soon!
 
-Fakebook Database
+Fakebook SQL Database
 -----------------------
 *SQL.*
 
-Write up coming soon.
+Coming soon!
 
-LC-2K Instruction-Set Assembler
+LC-2K Instruction-Set Assembler/Simulator
 -----------------------
 *C.*
 
-Write up coming soon.
+Coming soon!
 
 Android Workout Timer
 -----------------------
 *Android Studio, Kotlin.*
 
-Write up coming soon.
+Coming soon!
 
 
 
