@@ -4,9 +4,11 @@
     -Incorporate mountain pictures, balloon path picture?
 -Add icon animation from old site
 -Add HRs between sections (bottom border)
--Replace experience with resume
+-Add resume section before experience
+-List experience (two soft eng jobs, admin assistant, etc)
 -Change copyrights to old website
 -Expand projects area, infinite scroll? 
     -***Pick by year (Featured, 2020, 2019, 2018... etc) on the top. Have a featured section with favorite project of each year.
     -Include pictures (carosel, github links, description, date, tech used, etc)
 -Decrease width of page
+-Neon Color Accents?

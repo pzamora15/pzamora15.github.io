@@ -78,7 +78,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: auto;
+  max-width: 1500px;
   font-family: $sans-serif;
   background-color: $syntax-bg;
   color: $syntax-fg;
