@@ -34,13 +34,8 @@ $syntax-hue: 0;
 $syntax-saturation: 0%;
 $syntax-brightness: 15%;
 
-// Monochrome -----------------------------------
-$mono-1: hsl($syntax-hue, 14%, 71%); // default text
-$mono-2: hsl($syntax-hue, 9%, 55%);
-$mono-3: hsl($syntax-hue, 10%, 40%);
-
 // Colors -----------------------------------
-$red: hsl(0, 0%, 15%);
+$red: hsl(355, 65%, 65%);
 $orange: hsl(29, 54%, 61%);
 $yellow: hsl(39, 67%, 69%);
 $green: hsl(95, 38%, 62%);
@@ -49,12 +44,10 @@ $blue: hsl(207, 82%, 66%);
 $purple: hsl(286, 60%, 67%);
 
 // Base colors -----------------------------------
-$syntax-fg: $mono-1;
-$syntax-bg: hsl($syntax-hue, $syntax-saturation, $syntax-brightness);
+$syntax-fg: #959393;
+$syntax-bg: #262626;
 $syntax-bg-lighter: darken($syntax-fg, 26%);
 $syntax-accent: rgb(127, 203, 254);
-// $syntax-guide: fade($syntax-fg, 15%);
-// $syntax-accent: hsl($syntax-hue, 100%, 66%);
 
 $colors: (
   'red': $red,
@@ -109,12 +102,12 @@ code {
 }
 
 .icons-item {
-  height: 18px;
-  width: 18px;
-  fill: $syntax-bg-lighter;
+  height: 25px;
+  width: 25px;
+  fill: $syntax-fg;
 
   &:hover {
-    fill: $mono-2;
+    fill: $syntax-bg-lighter;
   }
 
   &:focus {
@@ -159,7 +152,37 @@ code {
   }
 }
 
+@each $name, $hex in $colors {
+  .year-#{$name} {
+    color: $hex;
+    display: inline-block;
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $hex;
+      outline: 0;
+      &:after {
+        width: 95%;
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      position: relative;
+      background-color: $hex;
+      transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+      bottom: -10px;
+      margin: auto;
+    }
+  }
+}
+
 // Highlighting
 ::selection {
-  background-color: rgba($syntax-bg-lighter, 0.2);
+  background-color: $syntax-bg-lighter;
 }
+
+

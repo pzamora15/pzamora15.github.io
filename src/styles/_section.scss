@@ -17,12 +17,12 @@
   
 }
 
-.section:after{
-  width: 60px;
-  height: 4px;
-  bottom: -4px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.125);//add to section:after and make it partial border
-}
+// .section:after{
+//   content: "test";
+//   width: 60px;
+//   height: 4px;
+//   border-bottom: 1px solid rgba(255, 255, 255, 0.125);//add to section:after and make it partial border
+// }
 
 .section-title {
   text-transform: uppercase;

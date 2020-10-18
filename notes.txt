@@ -9,6 +9,8 @@
 -Change copyrights to old website
 -Expand projects area, infinite scroll? 
     -***Pick by year (Featured, 2020, 2019, 2018... etc) on the top. Have a featured section with favorite project of each year.
+        -Can steal button animation from prev website too
+    -Add github link
     -Include pictures (carosel, github links, description, date, tech used, etc)
 -Decrease width of page
 -Neon Color Accents?

@@ -41,22 +41,6 @@ class Experience extends Component {
     const { experiences, active } = this.state;
     return (
       <Section title='experience'>
-        <p className='monospace experience-nav'>
-          {experiences.map((experience, index) => (
-            <React.Fragment key={index}>
-              <a
-                className={
-                  active === index
-                    ? `link-${experience.color} experience.company `
-                    : `link-text experience.company`
-                }
-                onClick={() => this.setState({ active: index })}>
-                {experience.company}
-              </a>
-              {index < experiences.length - 1 && <span>&nbsp;/&nbsp;</span>}
-            </React.Fragment>
-          ))}
-        </p>
         {experiences.map(
           (experience, index) =>
             <Role experience={experience} key={index} />
