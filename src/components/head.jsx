@@ -8,7 +8,7 @@ class Head extends Component {
       <Helmet>
         <meta charset='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='theme-color' content='#282c34' />
+        <meta name='theme-color' content='#262626' />
         <meta
           name='description'
           content="I'm Pedro Zamora, a design-driven software engineer and creator focused on building human-centered experiences. NYC-bred."

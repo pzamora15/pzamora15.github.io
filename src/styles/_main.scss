@@ -30,9 +30,9 @@ $monospace: 'SF Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 // Colors
 
 // Config -----------------------------------
-$syntax-hue: 220;
-$syntax-saturation: 13%;
-$syntax-brightness: 18%;
+$syntax-hue: 0;
+$syntax-saturation: 0%;
+$syntax-brightness: 15%;
 
 // Monochrome -----------------------------------
 $mono-1: hsl($syntax-hue, 14%, 71%); // default text
@@ -40,7 +40,7 @@ $mono-2: hsl($syntax-hue, 9%, 55%);
 $mono-3: hsl($syntax-hue, 10%, 40%);
 
 // Colors -----------------------------------
-$red: hsl(355, 65%, 65%);
+$red: hsl(0, 0%, 15%);
 $orange: hsl(29, 54%, 61%);
 $yellow: hsl(39, 67%, 69%);
 $green: hsl(95, 38%, 62%);
