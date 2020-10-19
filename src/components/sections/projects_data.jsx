@@ -5,21 +5,23 @@ export const project_data = [
       projects: [
         {
           title: 'Instagram Clone Web Application',
-          detail:
-            'Multi-touch pad device that optically recognizes finger contours and tracks movements as different gestures for specific Connect Four moves on the built-in app.',
+          preview:
+            'A fully functional Instagram Clone using dynamically-generated client side pages.',
+          expand: 'abc',
           tech: ['Python', 'OpenCV', 'Soldering', 'Laser-Cutting'],
           img: 'insta.png',
-          color: 'cyan',
+          color: 'blue',
           video:
             'https://drive.google.com/file/d/1Kqm7AtSdRUlBKvHngXRKjAbsgC3Nt1FF/view',
         },
         {
           title: 'Weather Balloon Payload',
-          detail:
+          preview:
             'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
+          expand: 'This project is probably my favorite to date. The final report turned out wonderfully. This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer, in hopes of simultaneously measuring acceleration and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. We used Altium to design a custom PCB and then had it printed to allow for a permanent board that would house our package sensors. To facilitate the use of our sensors, we created a C++ library to use them more efficiently - it won one of the class awards.',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
           img: 'path.png',
-          color: 'red',
+          color: 'yellow',
           link:
             'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
           github:
@@ -27,11 +29,11 @@ export const project_data = [
         },
         {
           title: 'Video Streaming Proxy',
-          detail:
+          preview:
             'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
           img: '',
-          color: 'red',
+          color: 'green',
           link:
             'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
           github:
@@ -39,8 +41,9 @@ export const project_data = [
         },
         {
           title: 'Smart Mirror',
-          detail:
+          preview:
             'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
+          expand: 'abc',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
           img: 'frontend.jpg',
           color: 'red',
@@ -51,11 +54,11 @@ export const project_data = [
         },
         {
           title: 'Buffer Overflow Analysis',
-          detail:
+          preview:
             'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
           img: '',
-          color: 'red',
+          color: 'cyan',
           link:
             'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
           github:
@@ -69,8 +72,9 @@ export const project_data = [
       projects: [
         {
           title: 'Personal Website Update',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'yellow',
@@ -79,8 +83,9 @@ export const project_data = [
         },
         {
           title: 'MapReduce Server Framework',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'yellow',
@@ -89,8 +94,9 @@ export const project_data = [
         },
         {
           title: 'Video Streaming Proxy',
-          detail:
+          preview:
             'Web application to streamline Spotify song requests into various music rooms.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           img: '',
           color: 'red',
@@ -99,8 +105,9 @@ export const project_data = [
         },
         {
           title: 'Instagram Clone Web Application',
-          detail:
+          preview:
             'Web application to streamline Spotify song requests into various music rooms.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           img: '',
           color: 'red',
@@ -109,8 +116,9 @@ export const project_data = [
         },
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
-          detail:
+          preview:
             'Web application to streamline Spotify song requests into various music rooms.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           img: '',
           color: 'red',
@@ -119,8 +127,9 @@ export const project_data = [
         },
         {
           title: 'Fakebook MongoDB Database',
-          detail:
+          preview:
             'Web application to streamline Spotify song requests into various music rooms.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           img: '',
           color: 'red',
@@ -129,8 +138,9 @@ export const project_data = [
         },
         {
           title: 'Cryptography Analysis',
-          detail:
+          preview:
             'Web application to streamline Spotify song requests into various music rooms.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           img: '',
           color: 'red',
@@ -145,8 +155,9 @@ export const project_data = [
       projects: [
         {
           title: 'Weather Balloon Payload',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'yellow',
@@ -155,8 +166,9 @@ export const project_data = [
         },
         {
           title: 'Smart Mirror',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -165,8 +177,9 @@ export const project_data = [
         },
         {
           title: 'Personal Website V1',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -175,8 +188,9 @@ export const project_data = [
         },
         {
           title: 'Treasure Hunt',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -185,8 +199,9 @@ export const project_data = [
         },
         {
           title: 'Log Manager',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -195,8 +210,9 @@ export const project_data = [
         },
         {
           title: 'Path Finder',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -212,8 +228,9 @@ export const project_data = [
         
         {
           title: 'Euchre Simulator',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -222,8 +239,9 @@ export const project_data = [
         },
         {
           title: 'Content-Aware Image Resizing',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -232,8 +250,9 @@ export const project_data = [
         },
         {
           title: 'Piazza Post Classifier',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -242,8 +261,9 @@ export const project_data = [
         },
         {
           title: 'Reverse Polish Notation Calculator',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -252,8 +272,9 @@ export const project_data = [
         },
         {
           title: 'Braking Coefficient',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'orange',
@@ -269,8 +290,9 @@ export const project_data = [
       projects: [
         {
           title: 'RPS-101',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'purple',
@@ -279,8 +301,9 @@ export const project_data = [
         },
         {
           title: 'Blackjack',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'purple',
@@ -289,8 +312,9 @@ export const project_data = [
         },
         {
           title: 'Robocode Robot',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'purple',
@@ -299,8 +323,9 @@ export const project_data = [
         },
         {
           title: 'Prime Number Calculator',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'purple',
@@ -315,8 +340,9 @@ export const project_data = [
       projects: [
         {
           title: 'FC Barcelona Fanclub',
-          detail:
+          preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           img: '',
           color: 'cyan',

@@ -44,10 +44,10 @@ $blue: hsl(207, 82%, 66%);
 $purple: hsl(286, 60%, 67%);
 
 // Base colors -----------------------------------
-$syntax-fg: #959393;
+$syntax-fg: #aeadad;
 $syntax-bg: #262626;
 $syntax-bg-lighter: darken($syntax-fg, 26%);
-$syntax-accent: rgb(127, 203, 254);
+$syntax-accent: $blue;
 
 $colors: (
   'red': $red,
@@ -58,7 +58,6 @@ $colors: (
   'blue': $blue,
   'purple': $purple,
   'gray': $syntax-bg-lighter,
-  'text': $syntax-fg,
 );
 
 * {
@@ -151,6 +150,33 @@ code {
     }
   }
 }
+
+.link-text {
+  color: $syntax-fg;
+  display: inline-block;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $syntax-fg;
+    outline: 0;
+    &:after {
+      width: 100%;
+      background-color: $syntax-fg
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    position: relative;
+    background-color: $syntax-bg;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
+
 
 @each $name, $hex in $colors {
   .year-#{$name} {

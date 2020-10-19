@@ -11,7 +11,7 @@ class Role extends Component {
       city,
       state,
       color,
-      details,
+      previews,
     } = this.props.experience;
     return (
       <div className='role'>
@@ -32,8 +32,8 @@ class Role extends Component {
           {start} &#8212; {end} // {city}, {state}
         </h2>
         <ul>
-          {details.map((detail, index) => (
-            <li key={index}>{detail}</li>
+          {previews.map((preview, index) => (
+            <li key={index}>{preview}</li>
           ))}
         </ul>
       </div>

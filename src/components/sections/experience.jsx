@@ -14,7 +14,7 @@ class Experience extends Component {
         end: 'October 2020',
         city: 'Ann Arbor',
         state: 'MI',
-        details: [
+        previews: [
           'Utilized Python to maintain road-mapping software responsible for providing data on over 500,000 miles of road throughout North America used by the autonomous vehicle systems of Nissan, Cadillac, and Rivian. ',
           'Led initiative to refactor publishing software in anticipation for General Motors’ 2021 contract requirements, including implementation of newly requested road objects, and a 19% improvement of AWS EC2 usage.',
         ],
@@ -28,7 +28,7 @@ class Experience extends Component {
         end: 'Feburary 2020',
         city: 'Ann Arbor',
         state: 'MI',
-        details: [
+        previews: [
           'Developed interface between University faculty support website and IT ticketing system, allowing for a faster and more efficient response from faculty support staff regarding technology issues.',
           'Refined inventory system software and proposed its automation using Python scripts resulting in recognition for high productivity and consistent positive feedback.',
         ],

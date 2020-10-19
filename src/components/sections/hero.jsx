@@ -56,7 +56,7 @@ class Hero extends Component {
           <Fade duration={duration} delay={delay * 4}>
             <a href='' className="icon-scroll">
               <Link
-                activeClass=""
+                activeClass="active-scroll"
                 to="about"
                 spy={true}
                 smooth={true}

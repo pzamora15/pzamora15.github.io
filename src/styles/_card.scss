@@ -65,8 +65,29 @@
 
 .card-button{
   background-color: $syntax-bg;
-  color: $syntax-fg;
   border: 1px solid $syntax-fg;
-  padding: 10px 20px
-  
+  padding: 8px 15px;
+  border-radius: 0.25em;
+}
+
+.card-rodal-image{  
+  @include phone {
+    width: 200px;
+    height: 200px;   
+  }
+
+  @include phablet {
+    width: 300px;
+    height: 300px;   
+  }
+
+  @include tablet {
+    width: 400px;
+    height: 400px;   
+  }
+
+  @include desktop {
+    width: 500px;
+    height: 500px;
+  }
 }
