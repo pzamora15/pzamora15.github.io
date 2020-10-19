@@ -20,6 +20,8 @@ class Head extends Component {
         <title>Pedro Zamora II</title>
         <link rel='icon' href={icon} />
         <link rel='apple-touch-icon' href={icon} />
+        <script src="https://kit.fontawesome.com/c52c64df8f.js" crossorigin="anonymous"></script>
+        
       </Helmet>
     );
   }

@@ -10,6 +10,7 @@ class Role extends Component {
       end,
       city,
       state,
+      color,
       details,
     } = this.props.experience;
     return (
@@ -19,12 +20,12 @@ class Role extends Component {
             href={url}
             target='_blank'
             rel='noopener noreferrer'
-            className='link-blue'>
+            className={color}>
             {company}
           </a>{' '}
           <br />
           <span className='accent-text'>
-          <span className='title'>{title}</span>
+          <span className='title' style={{fontWeight: "600"}} >{title}</span>
           </span>
         </h1>
         <h2 className='monospace'>

@@ -101,13 +101,13 @@ code {
   font-family: $monospace;
 }
 
-.icons-item {
-  height: 25px;
-  width: 25px;
-  fill: $syntax-fg;
+.icons {
+  text-decoration: none;
+  color: $syntax-fg;
+  transition: color 0.3s ease;
 
   &:hover {
-    fill: $syntax-bg-lighter;
+    color: $syntax-bg-lighter;
   }
 
   &:focus {

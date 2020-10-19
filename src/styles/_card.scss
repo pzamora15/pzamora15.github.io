@@ -7,22 +7,20 @@
   flex-direction: column;
 
   .img {
-    // position: absolute;
-    // height: 100%;
-    // width: 100%;
+    padding: 0;
+    height: auto;
+    width: 100px;
     background-size: cover;
     background-position: center;
-    backdrop-filter: grayscale(100%);
-    // filter: grayscale(100%);
-    // filter: brightness(20%);
+    filter: brightness(80%);
   }
 
-  .icons {
-    margin-top: auto;
+  hr {
+    border: 0;
+    border-bottom: 1px solid $syntax-bg-lighter;
   }
-
   a {
-    padding: 0px 10px;
+    padding: 0px 20px 0px 0px;
     // display: block;
   }
 
@@ -38,7 +36,7 @@
 
   p {
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.5;
     margin: 10px 0px 20px 0px;
   }
@@ -55,7 +53,7 @@
     color: $syntax-bg-lighter;
 
     font: {
-      size: 0.7em;
+      size: 0.9em;
       family: $monospace;
     }
 
@@ -63,4 +61,12 @@
       margin-right: 10px;
     }
   }
+}
+
+.card-button{
+  background-color: $syntax-bg;
+  color: $syntax-fg;
+  border: 1px solid $syntax-fg;
+  padding: 10px 20px
+  
 }

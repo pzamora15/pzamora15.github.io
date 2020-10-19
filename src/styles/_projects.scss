@@ -27,10 +27,22 @@
   font-size: 1.1em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0 50px;
-  // overflowX: 'scroll';
-  // overflowY: 'hidden';
-  // whiteSpace: 'nowrap';
+
+  @include phone {
+    grid-gap: 0 10px;
+  }
+
+  @include phablet {
+    grid-gap: 0 30px;
+  }
+
+  @include tablet {
+    grid-gap: 0 30px;    
+  }
+
+  @include desktop {
+    grid-gap: 0 40px;
+  }
 }
 
 .year {

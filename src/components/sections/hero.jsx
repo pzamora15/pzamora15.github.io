@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
-import Icons from '../../icons/icons';
-import LogoIcon from '../../icons/logo';
-import IconScroll from '../../icons/scroll';
+import Icons from '../icons';
+import {Link} from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
 class Hero extends Component {
@@ -15,21 +15,25 @@ class Hero extends Component {
         <div className='hero'>
           <div className='hero-content'>
             <Fade duration={duration}>
-              <LogoIcon />
+              <img style={{height: "200px", width: "200px", borderRadius: "50%"}}src='./../../pz.jpg' alt='profile'></img>
             </Fade>
             <Fade duration={duration} delay={delay}>
               <h1 className='hero-text'>
-                I'm <span className='name'>Pedro Zamora</span>, a design-driven
-                software engineer and creative focused on building
-                human-centered experiences.{' '}
-                <span className='accent-green'>.</span>
+                Hi! I'm <span className='name'>Pedro Zamora</span>, a Junior at the{' '}
+                <a
+                  className='link-yellow'
+                  href='https://cse.engin.umich.edu/'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  University of Michigan
+                </a>{' '}studying Computer Science and minoring in Business.{' '}
               </h1>
             </Fade>
             <Fade duration={duration} delay={delay * 2}>
               <h2 className='hero-text'>
-                Check out my{' '}
+                I'm currently looking for 2021 SWE internships. Check out my{' '}
                 <a
-                  className='link-yellow'
+                  className='link-green'
                   href='/pedroz_resume.pdf'
                   target='_blank'
                   rel='noopener noreferrer'>
@@ -38,7 +42,7 @@ class Hero extends Component {
                 and let's talk:{' '}
                 <a
                   className='link-red'
-                  href='https://mail.google.com/mail/?view=cm&fs=1&to=pedroz@umich.edu'
+                  href='mailto:pedroz@umich.edu'
                   target='_blank'
                   rel='noopener noreferrer'>
                   pedroz@umich.edu
@@ -49,10 +53,21 @@ class Hero extends Component {
               <Icons />
             </Fade>
           </div>
+          <Fade duration={duration} delay={delay * 4}>
+            <a href='' className="icon-scroll">
+              <Link
+                activeClass=""
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}
+            >            
+              <i className="icons fas fa-arrow-down fa-2x"></i>            
+            </Link></a>
+          </Fade>
         </div>
-        <Fade duration={duration} delay={delay * 4}>
-          <IconScroll />
-        </Fade>
+        
       </React.Fragment>
     );
   }
