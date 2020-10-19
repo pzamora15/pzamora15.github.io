@@ -190,6 +190,7 @@ code {
       outline: 0;
       &:after {
         width: 95%;
+        background-color: $hex;
       }
     }
     &:after {
@@ -198,13 +199,41 @@ code {
       width: 0;
       height: 1px;
       position: relative;
-      background-color: $hex;
+      background-color: $syntax-bg;
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
       bottom: -10px;
       margin: auto;
     }
   }
 }
+
+.year-text {
+  color: $syntax-fg;
+  display: inline-block;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $syntax-fg;
+    outline: 0;
+    &:after {
+      width: 95%;
+      background-color: $syntax-fg
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    position: relative;
+    background-color: $syntax-bg;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    bottom: -10px;
+    margin: auto;
+  }
+}
+
 
 // Highlighting
 ::selection {
