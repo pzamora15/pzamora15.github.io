@@ -12,6 +12,10 @@
     @include tablet-desktop;
     grid-gap: 100px;
   }
+  @include widescreen {
+    @include tablet-desktop;
+    grid-gap: 100px;
+  }
 
   padding: 70px 0px;
   
@@ -53,6 +57,10 @@
   }
 
   @include desktop {
+    @include tablet-desktop;
+  }
+
+  @include widescreen {
     @include tablet-desktop;
   }
 }

@@ -43,6 +43,10 @@
   @include desktop {
     grid-gap: 0 40px;
   }
+  
+  @include widescreen {
+    grid-gap: 0 40px;
+  }
 }
 
 .year {

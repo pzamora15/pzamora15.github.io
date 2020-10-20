@@ -18,7 +18,10 @@
     @include tablet {
       font-size: 1.9em;
     }
-    @include desktop {
+    @include desktop{
+      font-size: 2em;
+    }
+    @include widescreen{
       font-size: 2em;
     }
   }
@@ -35,6 +38,9 @@
       font-size: 1.5em;
     }
     @include desktop {
+      font-size: 1.5em;
+    }
+    @include widescreen {
       font-size: 1.5em;
     }
   }
