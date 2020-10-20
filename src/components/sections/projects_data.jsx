@@ -5,64 +5,44 @@ export const project_data = [
       projects: [
         {
           title: 'Instagram Clone Web Application',
-          preview:
-            'A fully functional Instagram Clone using dynamically-generated client side pages.',
-          expand: 'abc',
-          tech: ['Python', 'OpenCV', 'Soldering', 'Laser-Cutting'],
+          tech: ['Python', 'React', 'Flask', 'SQL'],
+          preview: 'A fully functional Instagram Clone using dynamically-generated client side pages.',
           images: [ 'insta.png', 'insta.png', 'insta.png',],
           color: 'blue',
-          video:
-            'https://drive.google.com/file/d/1Kqm7AtSdRUlBKvHngXRKjAbsgC3Nt1FF/view',
         },
         {
           title: 'Weather Balloon Payload',
-          preview:
-            'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
-          expand: 'This project is probably my favorite to date. The final report turned out wonderfully. This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer, in hopes of simultaneously measuring acceleration and altitude. With these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. We used Altium to design a custom PCB and then had it printed to allow for a permanent board that would house our package sensors. To facilitate the use of our sensors, we created a C++ library to use them more efficiently - it won one of the class awards.',
-          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
+          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
+          preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon.',
           images: [ 'insta.png', 'insta.png', 'insta.png',],
+          github: 'https://github.com/pedroz2/weather_balloon',
+          report: 'https://pedroz.dev/projects/weather_balloon/final_report.pdf',
+          poster: 'https://pedroz.dev/projects/weather_balloon/team12_poster.pdf',
           color: 'yellow',
-          link:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
-          github:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
         },
         {
           title: 'Video Streaming Proxy',
-          preview:
-            'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
-          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
-          img: '',
+          tech: ['C/C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
+          preview: 'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
+          images: [ 'insta.png', 'insta.png', 'insta.png',],
           color: 'green',
-          link:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
-          github:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
         },
         {
           title: 'Smart Mirror',
-          preview:
-            'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
-          expand: 'abc',
-          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
-          img: 'frontend.jpg',
+          tech: ['C/C++', 'Javascript', 'Electron', 'Raspberry-Pi',],
+          preview: 'Displaying morning routine information such as weather, music, and calendar on a mirror for easy use. Based on an open-source JavaScript framework.',
+          images: [ 'insta.png', 'insta.png', 'insta.png',],
+          github: 'https://github.com/pedroz2/weather_balloon',
+          report: 'https://pedroz.dev/projects/weather_balloon/final_report.pdf',
+          poster: 'https://pedroz.dev/projects/weather_balloon/team12_poster.pdf',
           color: 'red',
-          link:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
-          github:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
         },
         {
-          title: 'Buffer Overflow Analysis',
-          preview:
-            'High-altitude device launched 26,822 meters into the stratosphere to measure and store pressure, temperature, humidity, UV index, and GPS data for weather analysis.',
-          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'UART'],
-          img: '',
+          title: 'Buffer Overflow Security Analysis',
+          tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
+          preview: 'An investigation into various, known vulnerablities in cryptography. Explores Length-Extension and Hash Collision attacks within the MD5 hash function.',
+          images: [ 'insta.png', 'insta.png', 'insta.png',],
           color: 'cyan',
-          link:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
-          github:
-            'https://docs.google.com/gview?url=https://github.com/slau8/ufo/raw/master/ufo.pdf&embedded=true',
         },
       ]
     },
@@ -75,11 +55,12 @@ export const project_data = [
           preview:
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
           expand: 'abc',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
+          tech: ['Bootstrap', 'React', 'SCSS', 'Javascript'],
           img: '',
           color: 'yellow',
-          github: 'https://github.com/slau8/park-finder',
-          link: 'http://shanlau.pythonanywhere.com',
+
+          github: 'https://github.com/pedroz2/pedroz2.github.io',
+          external: 'https://pedroz.dev/',
         },
         {
           title: 'MapReduce Server Framework',

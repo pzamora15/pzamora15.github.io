@@ -63,24 +63,18 @@
   }
 }
 
-.card-button{
-  background-color: $syntax-bg;
-  border: 1px solid $syntax-fg;
-  padding: 8px 15px;
-  border-radius: 0.25em;
-  cursor: pointer;
-}
-
 .rodal-content{
   height: 100%;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 
 @include phone {
   .card-rodal-image{
     width: 200px;
     height: 200px;   
+  }
+
+  .card-icon{
+    font-size: 1.6em;
   }
 
   .rodal-dialog{
@@ -90,16 +84,16 @@
       font-size: 1.6em;
     }
   }
-
-  .rodal-content{
-    grid-gap: 20px;
-  }
 }
 
 @include phablet {
   .card-rodal-image{
     width: 300px;
     height: 300px;   
+  }
+
+  .card-icon{
+    font-size: 1.6em;
   }
 
   .rodal-dialog{
@@ -109,9 +103,6 @@
       font-size: 1.6em;
     }
   }
-  .rodal-content{
-    grid-gap: 20px;
-  }
 }
 
 @include tablet {  
@@ -119,7 +110,11 @@
     width: 400px;
     height: 400px;   
   }
-  
+
+  .card-icon{
+    font-size: 1.6em;
+  }
+   
   .rodal-dialog{
     width: 600px !important;
     padding: 40px;
@@ -127,15 +122,16 @@
       font-size: 1.6em;
     }
   }
-  .rodal-content{
-    grid-gap: 20px;
-  }
 }
 
 @include desktop {  
   .card-rodal-image{
     width: 500px;
     height: 500px;   
+  }
+
+  .card-icon{
+    font-size: 1.6em;
   }
   
   .rodal-dialog{
@@ -145,15 +141,16 @@
       font-size: 1.6em;
     }
   }
-  .rodal-content{
-    grid-gap: 20px;
-  }
 }
 
 @include widescreen {
   .card-rodal-image{
     width: 500px;
     height: 500px;   
+  }
+
+  .card-icon{
+    font-size: 1.6em;
   }
   
   .rodal-dialog{
@@ -162,8 +159,5 @@
     h1 {
       font-size: 1.6em;
     }
-  }
-  .rodal-content{
-    grid-gap: 20px;
   }
 }

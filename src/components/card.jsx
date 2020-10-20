@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import Rodal from 'rodal';
+import Images from './images';
 import 'rodal/lib/rodal.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 
 class Card extends Component {
   constructor(props){
@@ -24,13 +24,13 @@ class Card extends Component {
     const {
       title,
       preview,
-      expand,
       tech,
       images,
       color,
       github,
-      video,
-      link,
+      report,
+      poster,
+      external,
     } = this.props.project;
 
     const customStyles = {
@@ -57,53 +57,45 @@ class Card extends Component {
           </ul>
           <p>{preview}</p> 
           
-          {expand && (
 
-                <div>
-                  <button className='card-button link-text' onClick={this.show.bind(this)}>Expand</button>
-                  <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} customStyles={customStyles} customMaskStyles={customMaskStyles}>
-                        <div className='rodal-content'>
-                            <div className='card-rodal-left'>
-                                {
-                                  images && 
-                                  (<Carousel showThumbs={false} infiniteLoop={true}>
-                                    { 
-                                      images.map((image) => (<img className='card-rodal-image' src={image} alt={image}></img>))
-                                    }
-                                  </Carousel>)
-                                }
-                            </div>                
-                            <div className='card-rodal-right'>
-                                  <h1 className={`accent-${color}`}>{title}</h1>
-                                  <ul className='tags'>
-                                    { tech.map((d) => (<li>{d}</li>)) }
-                                  </ul>
-                                  
-                                  <p>{expand}</p>
-                                  <div className='icons'>
-                                        {github && (
-                                          <a className='icons fab fa-github fa-2x' href={github} target='_blank' rel='noopener noreferrer'>
-                                            <span style={{display: "none"}}>github</span>
-                                          </a>
-                                        )}
-                                        {video && (
-                                          <a className='icons fab fa-github fa-2x' href={video} target='_blank' rel='noopener noreferrer'>
-                                            <span style={{display: "none"}}>video</span>
-                                          </a>
-                                        )}
-                                        {link && (
-                                          <a className='icons fab fa-github fa-2x' href={link} target='_blank' rel='noopener noreferrer'>
-                                            <span style={{display: "none"}}>link</span>
-                                          </a>
-                                        )}
-                                  </div>
-                            </div>                
-                        </div>
-                        
-                  </Rodal>
-                </div>
+
+          <div className='icons'>
+            {images && (
+              <a className='icons card-icon fas fa-images' onClick={this.show.bind(this)} style={{cursor: 'pointer'}}>
+                <span style={{display: "none"}}>link</span>
+              </a>
+            )}
+
+            {github && (
+              <a className='icons card-icon fab fa-github' href={github} target='_blank' rel='noopener noreferrer'>
+                <span style={{display: "none"}}>link</span>
+              </a>                                          
+            )}
+            {report && (
+              <a className='icons card-icon fas fa-file-pdf' href={report} target='_blank' rel='noopener noreferrer'>
+                <span style={{display: "none"}}>link</span>
+              </a>
+            )}
+            {poster && (
+              <a className='icons card-icon fas fa-file-pdf' href={poster} target='_blank' rel='noopener noreferrer'>
+                <span style={{display: "none"}}>link</span>
+              </a>
+            )}
+            {external && (
+              <a className='icons card-icon fas fa-external-link-alt' href={external} target='_blank' rel='noopener noreferrer'>
+                <span style={{display: "none"}}>link</span>
+              </a>
+            )}
+          </div>  
+
           
-          )}         
+
+          {images && (           
+                  <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} customStyles={customStyles} customMaskStyles={customMaskStyles}>
+                    <Images /> 
+                  </Rodal>
+            )}
+
         </div>        
         
       </div>
