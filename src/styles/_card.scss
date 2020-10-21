@@ -61,100 +61,19 @@
 
 .card-icon{  
   padding: 0px 20px 0px 0px;
+  font-size: 1.5em;
 }
 
 .rodal-content{
   height: 100%;
 }
 
-@include phone {
-  .card-icon{
+.rodal-dialog{
+  width: 70%;
+  height: 70%;
+  padding: 40px;
+  h1 {
     font-size: 1.6em;
-  }
-
-  .rodal-dialog{
-    width: 300px !important;
-    height: 380px !important;
-    padding: 40px;
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-
-  .numbertext{
-    width: 220px;
-  }
-}
-
-@include phablet {
-  .card-icon{
-    font-size: 1.6em;
-  }
-
-  .rodal-dialog{
-    width: 400px !important;
-    height: 480px !important;
-    padding: 40px;
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-  .numbertext{
-    width: 320px;
-  }
-}
-
-@include tablet {  
-  .card-icon{
-    font-size: 1.6em;
-  }
-   
-  .rodal-dialog{
-    width: 600px !important;
-    height: 680px !important;
-    padding: 40px;
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-  .numbertext{
-    width: 520px;
-  }
-}
-
-@include desktop {  
-  .card-icon{
-    font-size: 1.6em;
-  }
-  
-  .rodal-dialog{
-    width: 900px !important;
-    height: 980px !important;
-    padding: 40px;
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-  .numbertext{
-    width: 820px;
-  }
-}
-
-@include widescreen {
-  .card-icon{
-    font-size: 1.6em;
-  }
-  
-  .rodal-dialog{
-    width: 1200px !important;
-    height: 980px !important;
-    padding: 40px;
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-  .numbertext{
-    width: 1120px;
   }
 }
 
@@ -193,6 +112,8 @@
   margin: 0 !important;
   font-size: 1.5em !important;
   text-align: center;
+  left: 0;
+  right: 0;
 
 }
 

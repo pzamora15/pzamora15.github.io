@@ -31,7 +31,7 @@ export const project_data = [
           title: 'Smart Mirror',
           tech: ['C/C++', 'Javascript', 'Electron', 'Raspberry-Pi',],
           preview: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
-          images: [ 'frontend.png', 'backend.png', 'mirror.png',],
+          images: [ 'frontend.jpg', 'backend.jpg', 'mirror.png',],
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'red',
@@ -52,7 +52,7 @@ export const project_data = [
       projects: [
         {
           title: 'Personal Website Update',
-          preview: 'Updated and rewrote my entire personal website using React and SCSS for 2020/2021.  ',
+          preview: 'Updated and rewrote my entire personal website using React and SCSS for this years\' internship!  ',
           tech: ['Bootstrap', 'React', 'SCSS', 'Javascript'],
           color: 'yellow',
           github: 'https://github.com/pedroz2/pedroz2.github.io',
@@ -130,7 +130,7 @@ export const project_data = [
           title: 'Smart Mirror',
           tech: ['C/C++', 'Javascript', 'Electron', 'Raspberry-Pi',],
           preview: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
-          images: [ 'frontend.png', 'backend.png', 'mirror.png',],
+          images: [ 'frontend.jpg', 'backend.jpg', 'mirror.png',],
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'red',
@@ -219,7 +219,7 @@ export const project_data = [
     
     {
       header: '2017',
-      color: 'orange',
+      color: 'red',
       projects: [
         {
           title: 'RPS-101',
@@ -250,7 +250,14 @@ export const project_data = [
             'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'purple',
-        },
+        },    
+      ]
+    },  
+
+    {
+      header: '2016',
+      color: 'green',
+      projects: [
         {
           title: 'FC Barcelona Fanclub',
           preview:
@@ -258,7 +265,6 @@ export const project_data = [
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'cyan',
         },
-        
       ]
-    },  
+    }, 
 ]
