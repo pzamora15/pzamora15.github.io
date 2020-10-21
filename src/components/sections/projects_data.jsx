@@ -39,7 +39,7 @@ export const project_data = [
         {
           title: 'Buffer Overflow Security Analysis',
           tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
-          preview: 'An investigation into various control-flow hijacking vulnerabilities in application software, specifically regarding buffer overflows and remote-orientated programming.',
+          preview: 'An investigation into various control-flow hijacking vulnerabilities in application software. Focused on buffer overflows and remote-orientated programming.',
           images: [ 'buffer.png', 'buffer2.png', 'buffer3.jpg',],
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
           color: 'cyan',
@@ -60,7 +60,7 @@ export const project_data = [
         },
         {
           title: 'MapReduce Server Framework',
-          preview: 'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+          preview: 'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'red',
         },
@@ -138,7 +138,7 @@ export const project_data = [
         {
           title: 'Personal Website V1',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -146,7 +146,7 @@ export const project_data = [
         {
           title: 'Treasure Hunt',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -154,7 +154,7 @@ export const project_data = [
         {
           title: 'Log Manager',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -162,7 +162,7 @@ export const project_data = [
         {
           title: 'Path Finder',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -177,7 +177,7 @@ export const project_data = [
         {
           title: 'Euchre Simulator',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -185,7 +185,7 @@ export const project_data = [
         {
           title: 'Content-Aware Image Resizing',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -193,7 +193,7 @@ export const project_data = [
         {
           title: 'Piazza Post Classifier',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -201,7 +201,7 @@ export const project_data = [
         {
           title: 'Reverse Polish Notation Calculator',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -209,7 +209,7 @@ export const project_data = [
         {
           title: 'Braking Coefficient',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'orange',
@@ -224,7 +224,7 @@ export const project_data = [
         {
           title: 'RPS-101',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'purple',
@@ -232,7 +232,7 @@ export const project_data = [
         {
           title: 'Blackjack',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'purple',
@@ -240,14 +240,14 @@ export const project_data = [
         {
           title: 'Robocode Robot',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'purple',
         },
         {
           title: 'Prime Number Calculator',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'purple',
         },    
@@ -261,7 +261,7 @@ export const project_data = [
         {
           title: 'FC Barcelona Fanclub',
           preview:
-            'Online National Parks Service kiosk and search tool to discover national parks with in-depth information on visitor centers, campgrounds, news, and educational materials.',
+            'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
           color: 'cyan',
         },
