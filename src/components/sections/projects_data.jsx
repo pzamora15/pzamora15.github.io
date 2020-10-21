@@ -81,7 +81,7 @@ export const project_data = [
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
           preview:
-            'Web application to streamline Spotify song requests into various music rooms.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'cyan',
@@ -89,7 +89,7 @@ export const project_data = [
         {
           title: 'Fakebook MongoDB Database',
           preview:
-            'Web application to streamline Spotify song requests into various music rooms.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'red',
@@ -115,7 +115,7 @@ export const project_data = [
         {
           title: 'Cryptography Analysis',
           preview:
-            'Web application to streamline Spotify song requests into various music rooms.',
+            'Description is on the way!',
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'green',
