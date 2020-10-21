@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from 'react';
 
 class Role extends Component {

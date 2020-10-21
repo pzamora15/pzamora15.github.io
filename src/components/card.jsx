@@ -34,7 +34,7 @@ class Card extends Component {
     } = this.props.project;
 
     const customStyles = {
-      height: 'auto',
+      height: '70%',
       width: '70%',
       bottom: '15%',
       top: '15%',
@@ -92,7 +92,7 @@ class Card extends Component {
 
           {images && (           
                   <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} customStyles={customStyles} customMaskStyles={customMaskStyles}>
-                    <Images /> 
+                    <Images images={images} key={this.props.key}/> 
                   </Rodal>
             )}
 

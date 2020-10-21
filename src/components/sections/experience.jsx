@@ -4,7 +4,6 @@ import Role from './../role';
 
 class Experience extends Component {
   state = {
-    active: 0,
     experiences: [
       {
         company: 'USHR Inc.',
@@ -37,7 +36,7 @@ class Experience extends Component {
     ],
   };
   render() {
-    const { experiences, active } = this.state;
+    const { experiences } = this.state;
     return (
       <Section title='experience'>
         {experiences.map(
