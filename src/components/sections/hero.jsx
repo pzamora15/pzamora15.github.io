@@ -15,7 +15,7 @@ class Hero extends Component {
         <div className='hero'>
           <div className='hero-content'>
             <Fade duration={duration}>
-              <img style={{height: "200px", width: "200px", borderRadius: "50%"}}src='./../../pz.jpg' alt='profile'></img>
+              <img style={{height: "200px", width: "200px", borderRadius: "50%"}} src='./../../images/pz.jpg' alt='profile'></img>
             </Fade>
             <Fade duration={duration} delay={delay}>
               <h1 className='hero-text'>
@@ -34,7 +34,7 @@ class Hero extends Component {
                 I'm currently looking for 2021 SWE internships. Check out my{' '}
                 <a
                   className='link-green'
-                  href='/pedroz_resume.pdf'
+                  href='/pdfs/pedroz_resume.pdf'
                   target='_blank'
                   rel='noopener noreferrer'>
                   resume
