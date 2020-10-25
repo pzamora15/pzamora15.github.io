@@ -9,4 +9,9 @@ Runs the app in the development mode. Open [http://localhost:3000](http://localh
 
 #### `npm run build`
 
-Builds the app for production to the `build` folder. You can deploy using a hosting site like <a href="https://firebase.google.com/" target="_blank">Firebase</a>.
+Builds the app for production to the `build` folder. 
+
+
+#### `npm run deploy`
+
+Deploys the website using github-pages.
