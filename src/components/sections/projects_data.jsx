@@ -16,20 +16,20 @@ export const project_data = [
           preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
           images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
           github: 'https://github.com/pedroz2/weather_balloon',
-          report: 'https://pedroz.dev/projects/weather_balloon/pdfs/final_report.pdf',
-          poster: 'https://pedroz.dev/projects/weather_balloon/pdfs/team12_poster.pdf',
+          report: 'https://pedroz.dev/pdfs/final_report.pdf',
+          poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
           color: 'yellow',
         },
         {
           title: 'Video Streaming Proxy',
-          tech: ['C/C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
+          tech: ['C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
           preview: 'Developed a video streaming proxy service with a team of 3 students utilizing C++ libraries for multithreading, sockets, and DNS queries. Incorporates features such as adaptive bitrate selection, throughput estimation, and multi-server load balancing to improve latency and buffering time of multiple video streams by over 40%',
           images: [ 'images/stream.jpg',],
           color: 'green',
         },
         {
           title: 'Smart Mirror',
-          tech: ['C/C++', 'Javascript', 'Electron', 'Raspberry-Pi',],
+          tech: ['Javascript', 'Electron', 'Raspberry-Pi',],
           preview: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
           images: [ 'images/frontend.jpg', 'images/backend.jpg', 'images/mirror.png',],
           github: 'https://github.com/pedroz2/smart_mirror',
@@ -100,8 +100,8 @@ export const project_data = [
           preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
           images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
           github: 'https://github.com/pedroz2/weather_balloon',
-          report: 'https://pedroz.dev/projects/weather_balloon/pdfs/final_report.pdf',
-          poster: 'https://pedroz.dev/projects/weather_balloon/pdfs/team12_poster.pdf',
+          report: 'https://pedroz.dev/projects/pdfs/final_report.pdf',
+          poster: 'https://pedroz.dev/projects/pdfs/team12_poster.pdf',
           color: 'yellow',
         },
         {
@@ -260,9 +260,8 @@ export const project_data = [
       projects: [
         {
           title: 'FC Barcelona Fanclub',
-          preview:
-            'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
+          preview: 'My first introduction to programming (if you consider HTML programming) was creating a simple website in high school technology class. I made it watching some YOuTube turoials when Iw as first learning to code. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona hasn\'t given me a contract yet? ',
+          tech: ['HTML', 'CSS'],
           color: 'cyan',
         },
       ]
