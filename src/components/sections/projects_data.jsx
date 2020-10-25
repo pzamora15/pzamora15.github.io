@@ -241,15 +241,14 @@ export const project_data = [
           title: 'Robocode Robot',
           preview:
             'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
+          tech: ['Java', 'Robocode',],
           color: 'purple',
         },
         {
           title: 'Prime Number Calculator',
-          preview:
-            'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
-          color: 'purple',
+          preview: 'A neat little project I did in high school that would essentially generate a list of prime numbers smaller than N, given by the user. Don\'t tell anyone, but I really only tested it up to 100 because that was all the project specification required. Despite it being one of my first functioning programs ever (lots of spaghetti code), Despite it running on lots of spaghetti code, it still compiled and returned the numbers pretty fast.',
+          tech: ['Java',],
+          color: 'red',
         },    
       ]
     },  
@@ -263,6 +262,7 @@ export const project_data = [
           preview: 'My first introduction to programming (if you consider HTML programming) was creating a simple website in my high school technology class. I made it watching some YouTube tutorials when I was first learning to code. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona hasn\'t given me a contract yet? ',
           images: [ 'images/barca.png',],
           tech: ['HTML', 'CSS'],
+          external: 'https://pedroz.dev/fcb_website/FCBarca_main.html',
           color: 'cyan',
         },
       ]
