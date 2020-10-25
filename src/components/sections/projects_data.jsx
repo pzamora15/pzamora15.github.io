@@ -260,7 +260,8 @@ export const project_data = [
       projects: [
         {
           title: 'FC Barcelona Fanclub',
-          preview: 'My first introduction to programming (if you consider HTML programming) was creating a simple website in high school technology class. I made it watching some YOuTube turoials when Iw as first learning to code. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona hasn\'t given me a contract yet? ',
+          preview: 'My first introduction to programming (if you consider HTML programming) was creating a simple website in my high school technology class. I made it watching some YouTube tutorials when I was first learning to code. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona hasn\'t given me a contract yet? ',
+          images: [ 'images/barca.png',],
           tech: ['HTML', 'CSS'],
           color: 'cyan',
         },
