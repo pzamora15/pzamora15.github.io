@@ -13,7 +13,7 @@ export const project_data = [
         {
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
-          preview: 'This project is probably my favorite to date - it won a class award! Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. ',
+          preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
           images: [ 'path.png', 'earth.JPG', 'earth1.JPG', 'earth2.JPG', 'earth3.JPG', 'tmp36.jpg', 'bare_pcb.jpg', 'altium_pcb.png',],
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/projects/weather_balloon/final_report.pdf',
@@ -40,7 +40,6 @@ export const project_data = [
           title: 'Buffer Overflow Security Analysis',
           tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
           preview: 'An investigation into various control-flow hijacking vulnerabilities in application software. Focused on buffer overflows and remote-orientated programming.',
-          images: [ 'buffer.png', 'buffer2.png', 'buffer3.jpg',],
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
           color: 'cyan',
         },
@@ -52,7 +51,7 @@ export const project_data = [
       projects: [
         {
           title: 'Personal Website Update',
-          preview: 'Updated and rewrote my entire personal website using React and SCSS for this years\' internship!  ',
+          preview: 'Updated and rewrote my entire personal website using React and SCSS for this years\' internship search. I hope you like it! ',
           tech: ['Bootstrap', 'React', 'SCSS', 'Javascript'],
           color: 'yellow',
           github: 'https://github.com/pedroz2/pedroz2.github.io',

@@ -35,7 +35,7 @@ class About extends Component {
             className='link-green'
             target='_blank'
             rel='noopener noreferrer'>
-            Rock Climbing Club
+            Climbing Club
           </a>. Outside of that, I like to take photos, hike, and talk tech with my friends.
         </p>
       </Section>

@@ -69,8 +69,10 @@
 }
 
 .rodal-dialog{
-  width: 70%;
-  height: 70%;
+  @include phone {
+    width: 350px !important;
+    height: 350px !important;    
+  }
   padding: 40px;
   h1 {
     font-size: 1.6em;
