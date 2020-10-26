@@ -65,18 +65,18 @@ export const project_data = [
           color: 'red',
         },
         {
-          title: 'Video Streaming Proxy',
-          tech: ['C/C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
-          preview: 'Developed a video streaming proxy service with a team of 3 students utilizing C++ libraries for multithreading, sockets, and DNS queries. Incorporates features such as adaptive bitrate selection, throughput estimation, and multi-server load balancing to improve latency and buffering time of multiple video streams by over 40%',
-          images: [ 'images/stream.jpg',],
-          color: 'green',
-        },
-        {
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API. Imitates almost all of the functionality (and some of the looks) of the actual social media application. ',
           images: [ 'images/insta.png', 'images/insta2.png', 'images/insta3.png', 'images/insta4.png',],
           color: 'blue',
+        },
+        {
+          title: 'Video Streaming Proxy',
+          tech: ['C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
+          preview: 'Developed a video streaming proxy service with a team of 3 students utilizing C++ libraries for multithreading, sockets, and DNS queries. Incorporates features such as adaptive bitrate selection, throughput estimation, and multi-server load balancing to improve latency and buffering time of multiple video streams by over 40%',
+          images: [ 'images/stream.jpg',],
+          color: 'green',
         },
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
@@ -93,16 +93,6 @@ export const project_data = [
           expand: 'abc',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'red',
-        },
-        {
-          title: 'Weather Balloon Payload',
-          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
-          preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
-          images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
-          github: 'https://github.com/pedroz2/weather_balloon',
-          report: 'https://pedroz.dev/projects/pdfs/final_report.pdf',
-          poster: 'https://pedroz.dev/projects/pdfs/team12_poster.pdf',
-          color: 'yellow',
         },
         {
           title: 'Buffer Overflow Security Analysis',
@@ -127,8 +117,18 @@ export const project_data = [
       color: 'yellow',
       projects: [
         {
+          title: 'Weather Balloon Payload',
+          tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
+          preview: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
+          images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
+          github: 'https://github.com/pedroz2/weather_balloon',
+          report: 'https://pedroz.dev/pdfs/final_report.pdf',
+          poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
+          color: 'yellow',
+        },
+        {
           title: 'Smart Mirror',
-          tech: ['C/C++', 'Javascript', 'Electron', 'Raspberry-Pi',],
+          tech: ['Javascript', 'Electron', 'Raspberry-Pi',],
           preview: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
           images: [ 'images/frontend.jpg', 'images/backend.jpg', 'images/mirror.png',],
           github: 'https://github.com/pedroz2/smart_mirror',
@@ -225,6 +225,7 @@ export const project_data = [
           title: 'RPS-101',
           preview: 'Essentially Rock Paper Scissors on steroids, with 101 different gestures to be exact. Each gesture beats 50 other gestures, as well as loses to the remaining 50. It had 5,050 different outcomes and just under a one percent chance of a tie. You can find other versions too, like RPS-15 and RPS-25 - I made those first and that\'s how I found out about RPS-101. The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
           images: [ 'images/rps101.png',],
+          external: 'https://www.umop.com/rps.htm',
           tech: ['Java',],
           color: 'green',
         },
@@ -238,6 +239,7 @@ export const project_data = [
           title: 'Robocode Robot',
           preview: 'Robocode is a simple to use, educational Java framework that allows you to create autonomous robots. They would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. It was a pretty cool project that was my first introduction in using other people\'s libraries and frameworks in your code.',
           tech: ['Java', 'Robocode',],
+          external: 'https://robocode.sourceforge.io/',
           color: 'yellow',
         },
         {
