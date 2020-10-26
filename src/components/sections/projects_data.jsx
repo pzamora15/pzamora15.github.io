@@ -223,30 +223,26 @@ export const project_data = [
       projects: [
         {
           title: 'RPS-101',
-          preview:
-            'Description is on the way!',
-          expand: 'abc',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
-          color: 'purple',
+          preview: 'Essentially Rock Paper Scissors on steroids, with 101 different gestures to be exact. Each gesture beats 50 other gestures, as well as loses to the remaining 50. It had 5,050 different outcomes and just under a one percent chance of a tie. You can find other versions too, like RPS-15 and RPS-25 - I made those first and that\'s how I found out about RPS-101. The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
+          images: [ 'images/rps101.png',],
+          tech: ['Java',],
+          color: 'green',
         },
         {
           title: 'Blackjack',
-          preview:
-            'Description is on the way!',
-          expand: 'abc',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
-          color: 'purple',
+          preview: 'Blackjack featured an ASCII-based GUI (because a regular GUI would\'ve made too much sense?) printed in your choice of CLI and allowed you to play a fully fleshed out Blackjack game with a predictable AI dealer. In theory, it is a pretty simple game to code - but I still have fond memories of it.',
+          tech: ['Java',],
+          color: 'blue',
         },
         {
           title: 'Robocode Robot',
-          preview:
-            'Description is on the way!',
+          preview: 'Robocode is a simple to use, educational Java framework that allows you to create autonomous robots. They would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. It was a pretty cool project that was my first introduction in using other people\'s libraries and frameworks in your code.',
           tech: ['Java', 'Robocode',],
-          color: 'purple',
+          color: 'yellow',
         },
         {
           title: 'Prime Number Calculator',
-          preview: 'A neat little project I did in high school that would essentially generate a list of prime numbers smaller than N, given by the user. Don\'t tell anyone, but I really only tested it up to 100 because that was all the project specification required. Despite it being one of my first functioning programs ever (lots of spaghetti code), Despite it running on lots of spaghetti code, it still compiled and returned the numbers pretty fast.',
+          preview: 'A neat little project I did in high school that would generate a list of prime numbers smaller than N, given by the user. Don\'t tell anyone, but I really only tested it up to 100 because that was all the project specification required. Despite it being one of my first functioning programs ever, it still compiled and returned the numbers pretty fast.',
           tech: ['Java',],
           color: 'red',
         },    
