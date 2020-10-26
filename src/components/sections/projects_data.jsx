@@ -80,17 +80,13 @@ export const project_data = [
         },
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
-          preview:
-            'Description is on the way!',
-          expand: 'abc',
+          preview: 'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'cyan',
         },
         {
           title: 'Fakebook MongoDB Database',
-          preview:
-            'Description is on the way!',
-          expand: 'abc',
+          preview: 'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'red',
         },
@@ -104,9 +100,7 @@ export const project_data = [
         }, 
         {
           title: 'Cryptography Analysis',
-          preview:
-            'Description is on the way!',
-          expand: 'abc',
+          preview: 'Description is on the way!',
           tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
           color: 'green',
         },     
