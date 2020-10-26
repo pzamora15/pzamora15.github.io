@@ -1,0 +1,8 @@
+projects/_site
+projects/.sass-cache
+projects/.jekyll-cache
+projects/.jekyll-metadata
+projects/vendor
+.vs
+build/
+node_modules/
