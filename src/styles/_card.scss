@@ -94,11 +94,11 @@
 }
 
 .left {
-  left: 40px;
+  left: 30%;
 }
 
 .next {
-  right: 40px;
+  right: 30%;
 }
 
 .prev:hover, .next:hover {
@@ -111,7 +111,7 @@
   padding: 10px 0;
   bottom: 10%;
   position: absolute;
-  margin: 0 !important;
+  margin: auto !important;
   font-size: 1.5em !important;
   text-align: center;
   left: 0;

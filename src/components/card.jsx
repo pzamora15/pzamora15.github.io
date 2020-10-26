@@ -38,7 +38,7 @@ class Card extends Component {
       width: '70%',
       bottom: '15%',
       top: '15%',
-      'background-color': '#262626'
+      'background-color': 'transparent'
     };
 
     const customMaskStyles = {
