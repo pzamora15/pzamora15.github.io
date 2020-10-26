@@ -93,7 +93,7 @@
   bottom: 10%;
 }
 
-.left {
+.prev {
   left: 30%;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);  
 }
 
 .numbertext {
@@ -135,6 +135,17 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.rodal-close {
+  bottom: 8%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  &:after, &:before{
+    height: 3px !important;
+    background: #fff !important;
+  }
 }
 
 @-webkit-keyframes fade {
