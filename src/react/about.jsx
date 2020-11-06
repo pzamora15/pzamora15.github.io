@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Section from './../section';
+import Section from './components/section';
 
 class About extends Component {
   state = {};

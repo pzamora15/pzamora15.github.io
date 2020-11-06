@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
-import Icons from '../icons';
 import {Link} from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
@@ -50,7 +49,17 @@ class Hero extends Component {
               </h2>
             </Fade>
             <Fade duration={duration} delay={delay * 3}>
-              <Icons />
+              <div>
+                  <a href='https://www.github.com/pedroz2' target='_blank' rel='noopener noreferrer' className='icons-hero icons fab fa-github fa-2x'>
+                    <span style={{display: "none"}}></span>
+                  </a>
+                  <a href='https://www.linkedin.com/in/pedroz2' target='_blank' rel='noopener noreferrer' className='icons-hero icons fab fa-linkedin fa-2x'>
+                    <span style={{display: "none"}}></span>
+                  </a>
+                  <a href='mailto:pedroz@umich.edu' target='_blank' rel='noopener noreferrer' className='icons-hero icons fas fa-envelope fa-2x'>
+                    <span style={{display: "none"}}></span>
+                  </a>
+              </div>
             </Fade>
           </div>
           <Fade duration={duration} delay={delay * 4}>

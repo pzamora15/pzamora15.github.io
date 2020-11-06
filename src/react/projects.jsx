@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
-import Section from './../section';
-import Card from './../card';
-import { project_data } from './projects_data';
+import Section from './components/section';
+import Card from './components/card';
+import { project_data } from './components/projects_data';
 
 class Projects extends Component {
   state = {

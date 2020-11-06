@@ -1,10 +1,10 @@
 import React from 'react';
-import Head from './components/head';
-import Hero from './components/sections/hero';
-import About from './components/sections/about';
-import Experience from './components/sections/experience';
-import Projects from './components/sections/projects';
-import Footer from './components/sections/footer';
+import Head from './react/head';
+import Hero from './react/hero';
+import About from './react/about';
+import Experience from './react/experience';
+import Projects from './react/projects';
+import Footer from './react/footer';
 
 function App() {
   return (

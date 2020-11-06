@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Section from './../section';
-import Role from './../role';
+import Section from './components/section';
+import Role from './components/role';
 
 class Experience extends Component {
   state = {
