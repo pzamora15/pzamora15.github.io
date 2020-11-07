@@ -1,185 +1,223 @@
-.card {
-  padding: 20px;
-  border-radius: 0.25em;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-  // min-height: 250px;
-  display: flex;
-  flex-direction: column;
-
-  .img {
-    padding: 0;
-    height: auto;
-    width: 100px;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(80%);
-  }
-
-  hr {
-    border: 0;
-    border-bottom: 1px solid $syntax-bg-lighter;
-  }
-
-  h1 {
-    margin: 0px 0px 3px 0px;
-    line-height: 1.4;
-    flex-wrap: wrap;
-    font: {
-      size: 1.2em;
-      weight: 500;
-    }
-  }
-
-  p {
-    font-weight: 400;
-    font-size: 0.9em;
-    line-height: 1.5;
-    margin: 10px 0px 20px 0px;
-  }
-
-  .tags {
-    list-style: none;
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    margin: 5px 0px;
-    padding: 0px 0px 0px 2px;
-
+.card-nav {
     text-transform: uppercase;
-    color: $syntax-bg-lighter;
-
-    font: {
-      size: 0.9em;
-      family: $monospace;
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    @include phone {
+      grid-gap: 0 10px;
     }
-
-    li {
-      margin-right: 10px;
+  
+    @include phablet {
+      grid-gap: 0 30px;
+    }
+  
+    @include tablet {
+      grid-gap: 0 30px;    
+    }
+  
+    @include desktop {
+      grid-gap: 0 40px;
+    }
+    
+    @include widescreen {
+      grid-gap: 0 40px;
     }
   }
-}
-
-.card-icon{  
-  padding: 0px 20px 0px 0px;
-  font-size: 1.5em;
-}
-
-.rodal-content{
-  height: 100%;
-}
-
-.rodal-dialog{
-  @include phone {
-    width: 350px !important;
-    height: 350px !important;    
+  
+  .year {
+    margin: 0px 0 20px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #2c2c2c;
+    border-radius: 0.25em;
+    cursor: pointer;
   }
-  padding: 0 !important;
-  h1 {
-    font-size: 1.6em;
+  
+  .card {
+    padding: 20px;
+    border-radius: 0.25em;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    // min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  
+    .img {
+      padding: 0;
+      height: auto;
+      width: 100px;
+      background-size: cover;
+      background-position: center;
+      filter: brightness(80%);
+    }
+  
+    hr {
+      border: 0;
+      border-bottom: 1px solid $syntax-bg-lighter;
+    }
+  
+    h1 {
+      margin: 0px 0px 3px 0px;
+      line-height: 1.4;
+      flex-wrap: wrap;
+      font: {
+        size: 1.4em;
+        weight: 500;
+      }
+    }
+  
+    p {
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.5;
+      margin: 10px 0px 20px 0px;
+    }
+  
+    .tags {
+      list-style: none;
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      margin: 5px 0px;
+      padding: 0px 0px 0px 2px;
+  
+      text-transform: uppercase;
+      color: $syntax-bg-lighter;
+  
+      font: {
+        size: 0.9em;
+        family: $monospace;
+      }
+  
+      li {
+        margin-right: 10px;
+      }
+    }
   }
-  box-shadow: 0 !important;
-}
-
-.prev, .next {
-  cursor: pointer;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 3px;
-  user-select: none;
-  position: absolute;
-  bottom: 10%;
-}
-
-.prev {
-  left: 30%;
-}
-
-.next {
-  right: 30%;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);  
-}
-
-.numbertext {
-  color: #f2f2f2;
-  padding: 10px 0;
-  bottom: 10%;
-  position: absolute;
-  margin: auto !important;
-  text-align: center;
-  left: 40%;
-  right: 40%;
-
-  @include phone {
-    font-size: 1em !important;
+  
+  .card-icon{  
+    padding: 0px 20px 0px 0px;
+    font-size: 1.5em;
   }
-  @include phablet {
-    font-size: 1em !important;
+  
+  .rodal-content{
+    height: 100%;
   }
-  @include tablet {
-    font-size: 1.5em !important;
+  
+  .rodal-dialog{
+    @include phone {
+      width: 350px !important;
+      height: 350px !important;    
+    }
+    padding: 0 !important;
+    h1 {
+      font-size: 1.6em;
+    }
+    box-shadow: 0 !important;
   }
-  @include desktop {
-    font-size: 1.5em !important;
+  
+  .prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    position: absolute;
+    bottom: 10%;
   }
-  @include widescreen {
-    font-size: 1.5em !important;
+  
+  .prev {
+    left: 30%;
   }
-
-}
-
-.modal-back {
-  background: $syntax-bg;
-  position: absolute;
-  left: 28%;
-  right: 28%;
-  width: auto;
-  top: 82%;
-  bottom: 5%;
-  border-radius: .4em;
-}
-
-.card-rodal-image{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.slideshow-container{
-  width: 100%;
-  height: 100%;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-.rodal-close {
-  top: 91%;
-  right: 0;
-  left: 0;
-  margin: auto;
-  &:after, &:before{
-    height: 3px !important;
-    background: #fff !important;
+  
+  .next {
+    right: 30%;
   }
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);  
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    padding: 10px 0;
+    bottom: 10%;
+    position: absolute;
+    margin: auto !important;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+  
+    @include phone {
+      font-size: 1em !important;
+    }
+    @include phablet {
+      font-size: 1em !important;
+    }
+    @include tablet {
+      font-size: 1.5em !important;
+    }
+    @include desktop {
+      font-size: 1.5em !important;
+    }
+    @include widescreen {
+      font-size: 1.5em !important;
+    }
+  
+  }
+  
+  .modal-back {
+    background: $syntax-bg;
+    position: absolute;
+    left: 28%;
+    right: 28%;
+    width: auto;
+    top: 82%;
+    bottom: 5%;
+    border-radius: .4em;
+  }
+  
+  .card-rodal-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: .25em;
+  }
+  
+  .slideshow-container{
+    width: 100%;
+    position: relative;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .rodal-close {
+    top: 91%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    &:after, &:before{
+      height: 3px !important;
+      background: #fff !important;
+    }
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
-import Rodal from 'rodal';
 import Images from './images';
-import 'rodal/lib/rodal.css';
 
 
 class Card extends Component {
@@ -31,7 +29,7 @@ class Card extends Component {
       report,
       poster,
       external,
-    } = this.props.project;
+    } = this.props.data;
 
     const customStyles = {
       height: '70%',
@@ -45,7 +43,10 @@ class Card extends Component {
       background: 'rgba(0,0,0,.5)'
     };
 
+    if(title === 'image_card'){
+      return (<Images images={images} key={this.props.key}/>)
 
+    }
     return (
       <div className='card'>
         <div className='card-content'>
@@ -54,18 +55,13 @@ class Card extends Component {
             {tech.map((d) => (
               <li>{d}</li>
             ))}
-          </ul>
+          </ul>         
+          
           <p>{preview}</p> 
           
 
 
           <div className='icons'>
-            {images && (
-              <a className='icons card-icon fas fa-images' onClick={this.show.bind(this)} style={{cursor: 'pointer'}}>
-                <span style={{display: "none"}}>link</span>
-              </a>
-            )}
-
             {github && (
               <a className='icons card-icon fab fa-github' href={github} target='_blank' rel='noopener noreferrer'>
                 <span style={{display: "none"}}>link</span>
@@ -87,14 +83,6 @@ class Card extends Component {
               </a>
             )}
           </div>  
-
-          
-
-          {images && (           
-                  <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} customStyles={customStyles} customMaskStyles={customMaskStyles}>
-                    <Images images={images} key={this.props.key}/> 
-                  </Rodal>
-            )}
 
         </div>        
         

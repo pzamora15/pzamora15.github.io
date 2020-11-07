@@ -13,7 +13,7 @@ class Projects extends Component {
     const { projects, active } = this.state;
     return (
       <Section title='projects'>
-        <p className='monospace project-nav'>
+        <p className='monospace card-nav'>
           {projects.map((year, index) => (
             <React.Fragment key={index}>
               <a
@@ -30,7 +30,7 @@ class Projects extends Component {
         </p>
         <div className='row'>
           {this.state.projects.map((year, index) => (
-            active === index && year.projects.map((project, year_index) => (<Card project={project} key={year_index} />))
+            active === index && year.projects.map((data, year_index) => (<Card data={data} key={year_index} />))
           ))}
         </div>
       </Section>

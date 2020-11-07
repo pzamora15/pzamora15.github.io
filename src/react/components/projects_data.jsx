@@ -4,11 +4,19 @@ export const project_data = [
       color: 'purple',
       projects: [
         {
+          title: 'image_card',
+          images: [ 'images/insta.png', 'images/insta2.png', 'images/insta3.png', 'images/insta4.png',],
+        },
+        {
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
-          preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API. Imitates almost all of the functionality (and some of the looks) of the actual social media application. ',
+          preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.\n\nImitates almost all of the functionality (and some of the looks) of the actual social media application. ',
           images: [ 'images/insta.png', 'images/insta2.png', 'images/insta3.png', 'images/insta4.png',],
           color: 'blue',
+        },
+        {
+          title: 'image_card',
+          images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
         },
         {
           title: 'Weather Balloon Payload',
@@ -21,11 +29,19 @@ export const project_data = [
           color: 'yellow',
         },
         {
+          title: 'image_card',
+          images: [ 'images/stream.jpg',],
+        },
+        {
           title: 'Video Streaming Proxy',
           tech: ['C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
           preview: 'Developed a video streaming proxy service with a team of 3 students utilizing C++ libraries for multithreading, sockets, and DNS queries. Incorporates features such as adaptive bitrate selection, throughput estimation, and multi-server load balancing to improve latency and buffering time of multiple video streams by over 40%',
           images: [ 'images/stream.jpg',],
           color: 'green',
+        },
+        {
+          title: 'image_card',
+          images: [ 'images/frontend.jpg', 'images/backend.jpg', 'images/mirror.png',],
         },
         {
           title: 'Smart Mirror',
@@ -35,6 +51,10 @@ export const project_data = [
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'red',
+        },
+        {
+          title: 'image_card',
+          images: [ 'images/buffer.png', 'images/buffer2.png', 'images/buffer3.jpg',],
         },
         {
           title: 'Buffer Overflow Security Analysis',
