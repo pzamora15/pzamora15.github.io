@@ -22,6 +22,7 @@ class Card extends Component {
     const {
       title,
       preview,
+      description,
       tech,
       images,
       color,
@@ -58,6 +59,7 @@ class Card extends Component {
           </ul>         
           
           <p>{preview}</p> 
+          <p>{description}</p> 
           
 
 

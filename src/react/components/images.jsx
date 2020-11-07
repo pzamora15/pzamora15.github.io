@@ -43,10 +43,11 @@ export default class Images extends Component {
         { 
           this.props.images.map((image, idx) => (slideIndex === idx && (
             <div className='card' style={{padding: '0', position: 'relative'}}>
+              <div className='card-back'></div>
               <img className='card-image' src={image} alt={image}></img>
               <p className='numbertext'>{`${idx+1} / ${this.props.images.length}`}</p>     
-              <a className='prev' onClick={this.minusSlides} style={{cursor: 'pointer'}}>&#10094;</a>
-              <a className='next' onClick={this.plusSlides} style={{cursor: 'pointer'}}>&#10095;</a>  
+              <a className='prev link-text' onClick={this.minusSlides} style={{cursor: 'pointer'}}>&#10094;</a>
+              <a className='next link-text' onClick={this.plusSlides} style={{cursor: 'pointer'}}>&#10095;</a>  
             </div>
           ))
           
