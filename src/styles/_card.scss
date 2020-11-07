@@ -61,7 +61,7 @@
       margin: 0px 0px 3px 0px;
       line-height: 1.4;
       flex-wrap: wrap;
-      weight: 500;      
+      font-weight: 500;      
     }
   
     p {
@@ -71,31 +71,31 @@
     }
 
     @include phone {
-      h1: {
-        font-size: 1.4em;
-      }
-      p {
-        font-size: 1em;
-      }
-    }
-    @include phablet {
-      h1: {
-        font-size: 1.4em;
-      }
-      p {
-        font-size: 1em;
-      }
-    }
-    @include tablet {
-      h1: {
+      h1 {
         font-size: 1.5em;
       }
       p {
-        font-size: 1em;
+        font-size: 0.9em;
+      }
+    }
+    @include phablet {
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 0.9em;
+      }
+    }
+    @include tablet {
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 0.95em;
       }
     }
     @include desktop {
-      h1: {
+      h1 {
         font-size: 1.5em;
       }
       p {
@@ -103,7 +103,7 @@
       }
     }
     @include widescreen {
-      h1: {
+      h1 {
         font-size: 1.6em;
       }
       p {
@@ -132,6 +132,47 @@
       }
     }
   }
+
+  @include phone {
+    .prev, .next {
+      padding: 8px;
+    }
+    .card-back {
+      height: 2.9em;
+    }
+  }
+  @include phablet {
+    .prev, .next {
+      padding: 8px;
+    }
+    .card-back {
+      height: 2.9em;
+    }
+  }
+  @include tablet {
+    .prev, .next {
+      padding: 10px;
+    }
+    .card-back {
+      height: 3em;
+    }
+  }
+  @include desktop {
+    .prev, .next {
+      padding: 14px;
+    }
+    .card-back {
+      height: 3.2em;
+    }
+  }
+  @include widescreen {
+    .prev, .next {
+      padding: 14px;
+    }
+    .card-back {
+      height: 3.5em;
+    }
+  }
   
   .card-icon{  
     padding: 0px 20px 0px 0px;
@@ -141,7 +182,6 @@
   .prev, .next {
     cursor: pointer;
     width: auto;
-    padding: 16px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -158,10 +198,6 @@
   
   .next {
     right: 30%;
-  }
-  
-  .prev:hover, .next:hover {
-    //background-color: rgba(0,0,0,0.8);  
   }
   
   .numbertext {
@@ -181,10 +217,10 @@
       font-size: 1em !important;
     }
     @include tablet {
-      font-size: 1.5em !important;
+      font-size: 1.25em !important;
     }
     @include desktop {
-      font-size: 1.5em !important;
+      font-size: 1.4em !important;
     }
     @include widescreen {
       font-size: 1.5em !important;
@@ -199,7 +235,6 @@
     left: 30%;
     right: 30%;
     width: auto;
-    height: 3.5em;
     bottom: 0;
     border-radius: .4em .4em 0 0;
   }
