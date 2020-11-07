@@ -29,11 +29,20 @@ export default class Images extends Component {
   }
   
 
+  
+
   render() {
+    const styles = {
+      width: '100%',
+      padding: '0',
+      position: 'relative',
+      height: '0',
+      paddingTop: '56.25%',
+    }
     const { slideIndex } = this.state;
     if(this.props.images.length === 1){
       return (
-        <div className='card' style={{padding: '0', position: 'relative'}}>        
+        <div className='card' style={styles}>        
           <img className='card-image' src={this.props.images[0]} alt={this.props.images[0]}></img>
         </div>
       )
@@ -42,9 +51,9 @@ export default class Images extends Component {
       <div>
         { 
           this.props.images.map((image, idx) => (slideIndex === idx && (
-            <div className='card' style={{padding: '0', position: 'relative'}}>
-              <div className='card-back'></div>
+            <div className='card' style={styles}>
               <img className='card-image' src={image} alt={image}></img>
+              <div className='card-back'></div>
               <p className='numbertext'>{`${idx+1} / ${this.props.images.length}`}</p>     
               <a className='prev link-text' onClick={this.minusSlides} style={{cursor: 'pointer'}}>&#10094;</a>
               <a className='next link-text' onClick={this.plusSlides} style={{cursor: 'pointer'}}>&#10095;</a>  

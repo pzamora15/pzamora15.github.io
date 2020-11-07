@@ -61,17 +61,54 @@
       margin: 0px 0px 3px 0px;
       line-height: 1.4;
       flex-wrap: wrap;
-      font: {
-        size: 1.4em;
-        weight: 500;
-      }
+      weight: 500;      
     }
   
     p {
       font-weight: 400;
-      font-size: 1em;
       line-height: 1.5;
       margin: 10px 0px 20px 0px;
+    }
+
+    @include phone {
+      h1: {
+        font-size: 1.4em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+    @include phablet {
+      h1: {
+        font-size: 1.4em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+    @include tablet {
+      h1: {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+    @include desktop {
+      h1: {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+    @include widescreen {
+      h1: {
+        font-size: 1.6em;
+      }
+      p {
+        font-size: 1.05em;
+      }
     }
   
     .tags {
@@ -168,9 +205,10 @@
   }
   
   .card-image{
+    top: 0;
+    left: 0;
+    position: absolute;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
     border-radius: .25em;
   }
   

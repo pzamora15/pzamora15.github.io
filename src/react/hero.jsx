@@ -30,7 +30,8 @@ class Hero extends Component {
             </Fade>
             <Fade duration={duration} delay={delay * 2}>
               <h2 className='hero-text'>
-                I'm currently looking for 2021 SWE internships. Check out my{' '}
+                I'm currently looking for 2021 SWE internships! <br />
+                Check out my{' '}
                 <a
                   className='link-green'
                   href='/pdfs/pedroz_resume.pdf'

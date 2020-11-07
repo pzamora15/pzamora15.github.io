@@ -5,14 +5,13 @@ export const project_data = [
       projects: [
         {
           title: 'image_card',
-          images: [ 'images/insta.png', 'images/insta2.png', 'images/insta3.png', 'images/insta4.png',],
+          images: [ 'images/insta.png',],
         },
         {
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'Imitates almost all of the functionality (and some of the looks) of the actual social media application. ',
-          images: [ 'images/insta.png', 'images/insta2.png', 'images/insta3.png', 'images/insta4.png',],
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates all of the same functionality (and some of the looks) of the real-world application. ',
           color: 'blue',
         },
         {
@@ -22,8 +21,8 @@ export const project_data = [
         {
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
-          description: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
-          images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
+          preview: 'This project is probably my favorite to date - it won a class award!',
+          description: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/pdfs/final_report.pdf',
           poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
@@ -48,20 +47,19 @@ export const project_data = [
           title: 'Smart Mirror',
           tech: ['Javascript', 'Electron', 'Raspberry-Pi',],
           description: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
-          images: [ 'images/frontend.jpg', 'images/backend.jpg', 'images/mirror.png',],
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'red',
         },
         {
           title: 'image_card',
-          images: [ 'images/buffer.png', 'images/buffer2.png', 'images/buffer3.jpg',],
+          images: [ 'images/buffer.png', 'images/buffer2.jpg', 'images/buffer3.png',],
         },
         {
           title: 'Buffer Overflow Security Analysis',
           tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
           description: 'An investigation into various control-flow hijacking vulnerabilities in application software. Focused on buffer overflows and remote-orientated programming.',
-          images: [ 'images/buffer.png', 'images/buffer2.png', 'images/buffer3.jpg',],
+          report: 'https://pedroz.dev/pdfs/stack_smashing.pdf',
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
           color: 'cyan',
         },

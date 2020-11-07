@@ -32,24 +32,12 @@ class Card extends Component {
       external,
     } = this.props.data;
 
-    const customStyles = {
-      height: '70%',
-      width: '70%',
-      bottom: '15%',
-      top: '15%',
-      'background-color': 'transparent'
-    };
-
-    const customMaskStyles = {
-      background: 'rgba(0,0,0,.5)'
-    };
-
     if(title === 'image_card'){
       return (<Images images={images} key={this.props.key}/>)
 
     }
     return (
-      <div className='card'>
+      <div className='card' style={{margin: '0 0 20px 0'}}>
         <div className='card-content'>
           <h1 className={`accent-${color}`}>{title}</h1>
           <ul className='tags'>

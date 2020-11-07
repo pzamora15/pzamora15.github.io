@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className='footer'>
         <p align='center'> &#169; Pedro Zamora, Oct. 2020</p>
-        <p align='center' style={{fontSize: "0.8em"}}>Built while watching Arrival (2016) | Inspired by shannonlau.com</p>
+        <p align='center' style={{fontSize: "0.8em"}}>Built while watching Arrival (2016). Great movie. | Inspired by shannonlau.com</p>
       </div>
     );
   }
