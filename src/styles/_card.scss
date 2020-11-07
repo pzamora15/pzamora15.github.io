@@ -59,6 +59,7 @@
   
     h1 {
       margin: 0px 0px 3px 0px;
+      font-size: 1.5em;
       line-height: 1.4;
       flex-wrap: wrap;
       font-weight: 500;      
@@ -75,7 +76,7 @@
         font-size: 1.5em;
       }
       p {
-        font-size: 0.9em;
+        font-size: 0.95em;
       }
     }
     @include phablet {
@@ -83,7 +84,7 @@
         font-size: 1.5em;
       }
       p {
-        font-size: 0.9em;
+        font-size: 0.95em;
       }
     }
     @include tablet {
@@ -104,10 +105,10 @@
     }
     @include widescreen {
       h1 {
-        font-size: 1.6em;
+        font-size: 1.5em;
       }
       p {
-        font-size: 1.05em;
+        font-size: 1em;
       }
     }
   

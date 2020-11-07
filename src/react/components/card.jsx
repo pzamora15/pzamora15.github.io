@@ -46,7 +46,7 @@ class Card extends Component {
             ))}
           </ul>         
           
-          <p>{preview}</p> 
+          {preview && (<p>{preview}</p>)} 
           <p>{description}</p> 
           
 
