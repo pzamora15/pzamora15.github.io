@@ -11,7 +11,7 @@ export const project_data = [
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates all of the same functionality (and some of the looks) of the real-world application. ',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates all of the same functionality (and some of the looks) of the real-world application. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'blue',
         },
         {
@@ -22,7 +22,7 @@ export const project_data = [
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
           preview: 'This project is probably my favorite to date - it won a class award!',
-          description: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
+          description: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. This project was the result of a group effort between 5 other students throughout the course of an entire semester. We learned everything from basic electrical soldering to designing a top-specification atmospheric weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/pdfs/final_report.pdf',
           poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
@@ -74,7 +74,7 @@ export const project_data = [
         },
         {
           title: 'Personal Website Update',
-          description: 'Updated and rewrote my entire personal website using React and SCSS for this years\' internship search. I hope you like it! ',
+          description: 'Updated and rewrote my entire personal website using React and SCSS for this year\'s internship search. I hope you like it! ',
           tech: ['Bootstrap', 'React', 'SCSS', 'Javascript'],
           color: 'yellow',
           github: 'https://github.com/pedroz2/pedroz2.github.io',
@@ -306,7 +306,8 @@ export const project_data = [
         },
         {
           title: 'RPS-101',
-          description: 'Essentially Rock Paper Scissors on steroids, with 101 different gestures to be exact. Each gesture beats 50 other gestures, as well as loses to the remaining 50. It had 5,050 different outcomes and just under a one percent chance of a tie. You can find other versions too, like RPS-15 and RPS-25 - I made those first and that\'s how I found out about RPS-101. The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
+          preview: 'Essentially Rock Paper Scissors on a lot of steroids, with 101 different gestures to be exact.',
+          description: 'Each gesture beats 50 other gestures, as well as loses to the remaining 50. RPS-101 had 5,050 different outcomes and just under a one percent chance of a tie - it was easily the move convoluted game I\'ve ever programmed. You can find more \'normal\' versions too, like RPS-15 and RPS-25 - I actually programmed those first and that\'s what led me to RPS-101. The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
           external: 'https://www.umop.com/rps.htm',
           tech: ['Java',],
           color: 'green',
@@ -317,7 +318,8 @@ export const project_data = [
         },
         {
           title: 'Blackjack',
-          description: 'Blackjack featured an ASCII-based GUI (because a regular GUI would\'ve made too much sense?) printed in your choice of CLI and allowed you to play a fully fleshed out Blackjack game with a predictable AI dealer. In theory, it is a pretty simple game to code - but I still have fond memories of it.',
+          preview: 'Blackjack was probably the coolest project I made during my time in high school.',
+          description: 'It featured an ASCII-based GUI (because I didn\'t know how to create an actual GUI) printed in your choice of CLI and allowed you to play a fully fleshed out Blackjack game with a predictable AI dealer. According to the specifications, the dealer would always take a card if it was 16 or less and stand otherwise. While the game is conceptually simple, I still have fond memories of creating my own version of it.',
           tech: ['Java',],
           color: 'blue',
         },
@@ -327,7 +329,8 @@ export const project_data = [
         },
         {
           title: 'Robocode Robot',
-          description: 'Robocode is a simple to use, educational Java framework that allows you to create autonomous robots. They would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. It was a pretty cool project that was my first introduction in using other people\'s libraries and frameworks in your code.',
+          preview: 'Robocode is a simple to use, educational Java framework that allows you to create autonomous robots.',
+          description: 'The robots would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. You could make your robot have some personality as well - I know a few people who made their robot drive in circles, waiting until one person got close enough before it relentlessly chased them down with melee attacks. It was a pretty cool project that introducted me to using libraries and frameworks in your program.',
           tech: ['Java', 'Robocode',],
           external: 'https://robocode.sourceforge.io/',
           color: 'yellow',
@@ -338,7 +341,8 @@ export const project_data = [
         },
         {
           title: 'Prime Number Calculator',
-          description: 'A neat little project I did in high school that would generate a list of prime numbers smaller than N, given by the user. Don\'t tell anyone, but I really only tested it up to 100 because that was all the project specification required. Despite it being one of my first functioning programs ever, it still compiled and returned the numbers pretty fast.',
+          preview: 'A neat little project I did in high school that would generate a list of prime numbers smaller than N (given by the user).',
+          description: 'Obviously, since I did not run this on a multi-million dollar supercomputer and only had moderate knowledge of programming/math, it was far more rudimentary than you think. Don\'t tell anyone, but I really only tested it up to 100 because that was all the project specification required. Despite it running on lots of spaghetti code, it still compiled and returned the results pretty fast.',
           tech: ['Java',],
           color: 'red',
         },    
@@ -355,7 +359,8 @@ export const project_data = [
         },
         {
           title: 'FC Barcelona Fanclub',
-          description: 'My first introduction to programming (if you consider HTML programming) was creating a simple website in my high school technology class. I made it watching some YouTube tutorials when I was first learning to code. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona hasn\'t given me a contract yet? ',
+          preview: 'When I first looked back at my old website to add it to this portfolio, the first thing I thought was "I remember this looking better."',
+          description: 'I created this website in my high school Intro to Computer Science class - it was my first introduction to anything relevant to programming. After watching some basic YouTube tutorials, I built the website using simple container-based styling. It\'s not anything fancy, but it got the job done. Who knows why FC Barcelona haven\'t given me a contract yet?',
           tech: ['HTML', 'CSS'],
           external: 'https://pedroz.dev/fcb_website/FCBarca_main.html',
           color: 'cyan',
