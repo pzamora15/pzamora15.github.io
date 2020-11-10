@@ -163,7 +163,7 @@ export const project_data = [
           color: 'green',
         },     
       ]
-    },
+    }, 
     {
       header: '2019',
       color: 'yellow',
@@ -248,7 +248,7 @@ export const project_data = [
         },     
         {
           title: 'Content-Aware Image Resizing',
-          description: 'This was a tool that essentially parsed individual pixels of an image and calculated the contrast between its surrounding pixels. Depending on the input you give the program (output length/width, crop/resize), it uses the contrast between sections of the image to decide where we can afford to resize an image without distorting its significant parts too much. The idea behind this project was to essentially find unimportant areas in the image that we can use to resize the image in hopes of changing the contents of the image as little as possible from the perspective of the viewer.',
+          description: 'This was a tool that parsed individual pixels of an image and calculated the contrast between its surrounding pixels. Depending on the input you give the program (output length/width, crop/resize), it uses the contrast between sections of the image to decide where we can afford to resize an image without distorting its significant parts too much. The idea behind this project was to find unimportant areas in the image that we can use to resize the image in hopes of changing the contents of the image as little as possible from the perspective of the viewer.',
           tech: ['C++',],
           color: 'blue',
         },
@@ -279,7 +279,8 @@ export const project_data = [
         },     
         {
           title: 'Reverse Polish Notation Calculator',
-          description: 'The idea behind the Reverse Polish Notation (RPN) Calculator is that it takes the arguments first, and then the operations that will be performed between them. Modern calculators do that in reverse - for example, 1+2-3 would be 1,2+3- in the RPN calculator. This project was meant to demonstrate and teach the stack data structure, which we also made by creating a wrapper on the C++ vector library.',
+          preview: 'The idea behind the Reverse Polish Notation (RPN) Calculator is that it takes the arguments first, and then the operations that will be performed between them.',
+          description: 'A RPN calculator is effectively a modern calculators in reverse - for example, 1+2-3 would be 1,2+3- in the RPN calculator. This project was a cool way of demonstrating and teaching the stack data structure, which we also made by creating a wrapper on the C++ vector library.',
           tech: ['C++',],
           color: 'green',
         },
@@ -289,7 +290,8 @@ export const project_data = [
         },     
         {
           title: 'Braking Coefficient',
-          description: 'This program simulated a shuttle landing with given system parameters including initial velocity, air braking coefficient, braking distance, and a few others. It would then return the most optimal braking coefficient - one that would use up as much of the runway as possible to reduce passenger discomfort, but also still result in a safe landing. The purpose of this project was essentially to get a grasp on using a program to help solve complex math and physics problems - it worked pretty well.',
+          preview: 'This program simulated a shuttle landing with given system parameters including initial velocity, air braking coefficient, braking distance, and a few others.',
+          description: 'It would then return the most optimal braking coefficient - one that would use up as much of the runway as possible to reduce passenger discomfort, but also still result in a safe landing. The purpose of this project was to get a grasp on using a program to help solve complex math and physics problems - it worked pretty well.',
           tech: ['C++',],
           color: 'yellow',
         },
@@ -306,8 +308,8 @@ export const project_data = [
         },
         {
           title: 'RPS-101',
-          preview: 'Essentially Rock Paper Scissors on a lot of steroids, with 101 different gestures to be exact.',
-          description: 'Each gesture beats 50 other gestures, as well as loses to the remaining 50. RPS-101 had 5,050 different outcomes and just under a one percent chance of a tie - it was easily the move convoluted game I\'ve ever programmed. You can find more \'normal\' versions too, like RPS-15 and RPS-25 - I actually programmed those first and that\'s what led me to RPS-101. The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
+          preview: 'Essentially Rock Paper Scissors on steroids, with 101 different gestures to be exact.',
+          description: 'Each gesture beats 50 other gestures, as well as loses to the remaining 50. RPS-101 had 5,050 different outcomes and just under a one percent chance of a tie - it was easily the move convoluted game I\'ve ever programmed. You can find more \'normal\' versions too, like RPS-15 and RPS-25 (I actually programmed those first and that\'s what led me to RPS-101). The funny thing is, I technically don\'t even know if it is bug-free because I never tested all 5050 outcomes.',
           external: 'https://www.umop.com/rps.htm',
           tech: ['Java',],
           color: 'green',
@@ -330,7 +332,7 @@ export const project_data = [
         {
           title: 'Robocode Robot',
           preview: 'Robocode is a simple to use, educational Java framework that allows you to create autonomous robots.',
-          description: 'The robots would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement depending on if another robot is aiming at you. You could make your robot have some personality as well - I know a few people who made their robot drive in circles, waiting until one person got close enough before it relentlessly chased them down with melee attacks. It was a pretty cool project that introducted me to using libraries and frameworks in your program.',
+          description: 'The robots would be put in a gladiator-esque arena and fight against other robots to the death. There are many techniques that were ready to be implemented depending on your dedication - stuff like priority selection of enemy robots, leading targets for more accurate shots, and randomized movement if another robot is aiming at you. You could make your robot have some personality as well - I know a few people who made their robot drive in circles, waiting until one person got close enough before it relentlessly chased them down with melee attacks. It was a pretty cool project that introducted me to using libraries and frameworks in your program.',
           tech: ['Java', 'Robocode',],
           external: 'https://robocode.sourceforge.io/',
           color: 'yellow',
