@@ -11,7 +11,7 @@ export const project_data = [
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application through a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'green',
         },
         {
@@ -22,7 +22,7 @@ export const project_data = [
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
           preview: 'This project is probably my favorite to date - it won a class award!',
-          description: 'This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer - with these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
+          description: 'This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer - with these, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/pdfs/final_report.pdf',
           poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
@@ -35,8 +35,8 @@ export const project_data = [
         {
           title: 'Video Streaming Proxy',
           tech: ['C++', 'Multi-Threading', 'Sockets', 'DNS',],
-          preview: 'A program that was designed to help streamline a user\'s video watching experience using some clever techniques.',
-          description: 'With video traffic dominating much of the internet these days, building a project around that seemed very interesting. I worked with a team of 3 other students to create a mock proxy service that utilizes C++ libraries for multi-threading, sockets, and DNS services. We implemented techniques such as adaptive bitrate selection, throughput estimation, and DNS Server load balancing (using Content Delivery Networks) to improve the latency and buffering time of concurrent video streams by over 40%.',
+          preview: 'A program that was designed to streamline a user\'s video watching experience.',
+          description: 'With video dominating much of the internet these days, building a project around video streams seemed very interesting. I worked with a team of 3 other students to create a mock proxy service that utilizes C++ libraries for multi-threading, sockets, and DNS services. We implemented techniques such as adaptive bitrate selection, throughput estimation, and DNS Server load balancing (using Content Delivery Networks) to improve the latency and buffering time of concurrent video streams by over 40%.',
           color: 'cyan',
         },
         {
@@ -87,7 +87,7 @@ export const project_data = [
         {
           title: 'Parallel RGB Image Convolution',
           preview: 'This is one of the projects from my Applied Parallel Computing with GPUs class.',
-          description: 'Convolution can be used for many purposes in Image Processing, such as blurring, sharpening, edge detection, and more. This CUDA program runs on the University\'s GreatLakes computation cluster, and applies an arbitrary mask over each pixel in an image to achieve a desired effect on an image. Since it runs on a GPU (rather than a normal, serial CPU) it is highly parallel and can compute over extremely large data sets in reasonable time. ',
+          description: 'Convolution can be used for many purposes in Image Processing, such as blurring, sharpening, edge detection, and more. This CUDA program runs on the University\'s computation cluster, and applies an arbitrary mask over each pixel in an image to achieve a desired effect on an image. Since it runs on a GPU (rather than a normal, serial CPU) it is highly parallel and can compute over extremely large data sets in reasonable time. ',
           tech: ['C', 'CUDA', 'Parallel-Computation',],
           color: 'red',
         },        
@@ -112,7 +112,7 @@ export const project_data = [
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application through a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'green',
         },
         {
@@ -122,8 +122,8 @@ export const project_data = [
         {
           title: 'Video Streaming Proxy',
           tech: ['C++', 'Multi-Threading', 'Sockets', 'DNS',],
-          preview: 'A program that was designed to help streamline a user\'s video watching experience using some clever techniques.',
-          description: 'With video traffic dominating much of the internet these days, building a project around that seemed very interesting. I worked with a team of 3 other students to create a mock proxy service that utilizes C++ libraries for multi-threading, sockets, and DNS services. We implemented techniques such as adaptive bitrate selection, throughput estimation, and DNS Server load balancing (using Content Delivery Networks) to improve the latency and buffering time of concurrent video streams by over 40%.',
+          preview: 'A program that was designed to streamline a user\'s video watching experience.',
+          description: 'With video dominating much of the internet these days, building a project around video streams seemed very interesting. I worked with a team of 3 other students to create a mock proxy service that utilizes C++ libraries for multi-threading, sockets, and DNS services. We implemented techniques such as adaptive bitrate selection, throughput estimation, and DNS Server load balancing (using Content Delivery Networks) to improve the latency and buffering time of concurrent video streams by over 40%.',
           color: 'cyan',
         },
         {
@@ -139,6 +139,10 @@ export const project_data = [
           color: 'red',
         },
         {
+          title: 'image_card',
+          images: [ 'images/buffer.png',],
+        },
+        {
           title: 'Control Flow Hijacking',
           tech: ['Python', 'C', 'GDB',],
           preview: 'Who knew that writing past the end of an array in C could be so fun.',
@@ -152,8 +156,8 @@ export const project_data = [
         },
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
-          preview: 'This was the main project in Michigan\'s Computer Architecture course, easily one of my favorite classes to date.',
-          description: 'LC-2K is a educational Microprocessor and Instruction Set created by the Michigan EECS department to help students understand computers at the assembly instruction level. Throughout the course of a semester, we created our own miniature processor - first starting with a simple instruction assembler and simulator. We then added variable labeling and file linking functionality, so we could write LC-2K programs more easily and use multiple files. The next step was to rewrite our simulator to emulate a pipelined processor and add branching functionality to speed up execution and create more complex programs. Lastly, we programmed a memory cache alongside our processor and added functionality so the simulator could use it. ',
+          preview: 'This was the main project in Michigan\'s Computer Architecture course, easily one of my favorite classes ever.',
+          description: 'LC-2K is a educational Microprocessor and Instruction Set created by the Michigan EECS department to help students understand computers at the assembly instruction level. Throughout the course of a semester, we created our own Microprocessor - first starting with a simple instruction assembler and simulator. We then added variable labeling and file linking functionality, so we could write LC-2K programs more easily and use multiple files. The next step was to rewrite our simulator to emulate a pipelined processor and add branching functionality to speed up execution and create more complex programs. Lastly, we programmed a memory cache alongside our processor and added functionality so the simulator could use it. ',
           tech: ['C', 'Computer-Architecture',],
           color: 'green',
         },
@@ -163,8 +167,8 @@ export const project_data = [
         },
         {
           title: 'Website Penetration Testing',
-          preview: 'An investigation into various web-security penetration attacks.',
-          description: 'This project explored the use of attacks like SQL Injection, Cross Site Scripting (XSS), and Cross Site Request Forgery (CSRF) on a unsecured, sample website. We were given various levels of security (For instance, XSS defenses included removing <script> tag, removing most HTML tags, and removing [;\'\\"] symbols) and expected to create a valid attack that would execute an arbritrary malicious payload on the website\'s backend. I had a lot of fun doing this project since it required a lot of clever thinking and was a very good learning experience for my future self. ',
+          preview: 'I had a lot of fun doing this project since most of it was just using really clever tricks to defeat the security measures.',
+          description: 'This project explored the use of attacks like SQL Injection, Cross Site Scripting (XSS), and Cross Site Request Forgery (CSRF) on a unsecured, sample website. We were given various levels of security (For instance, XSS defenses included removing <script> tag, removing most HTML tags, and removing [;\'\\"] symbols) and expected to create a valid attack that would execute an arbritrary malicious payload on the website\'s backend.  ',
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
           tech: ['Python', 'SQL', 'JavaScript',],
           color: 'blue',
@@ -205,7 +209,7 @@ export const project_data = [
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
           preview: 'This project is probably my favorite to date - it won a class award!',
-          description: 'This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer - with these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
+          description: 'This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer - with these, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/pdfs/final_report.pdf',
           poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
