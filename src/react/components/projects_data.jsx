@@ -61,7 +61,7 @@ export const project_data = [
           preview: 'This project is centered around building a distributed server to run MapReduce jobs.',
           description: 'MapReduce is a well-known data processing algorithm that is specifically designed to be run in parallel across multiple machines for large datasets. At a high level, MapReduce can perform operations (such as counting words) at speeds far faster than any single computer due to it\'s special ability to split up work across multiple processors. This framework is designed to facilitate MapReduce jobs in a scalable fashion, using one Master thread and an arbitrary amount of Worker threads. Each Worker is able to communicate with the Master thread using both TCP and UDP Sockets to exchange information such as task assignments, heartbeats, worker errors, and status updates. ',
           tech: ['Python', 'Multi-Threading', 'Sockets', 'MapReduce'],
-          color: 'blue',
+          color: 'red',
         }, 
       ]
     },
