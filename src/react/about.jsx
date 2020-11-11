@@ -10,7 +10,7 @@ class About extends Component {
           Hello! I’m Pedro, a budding software engineer who loves rock climbing, frisbee, and dogs. 
           I'm currently exploring the field of Computer Science at the{' '}
           <a
-            href='https://umich.edu/'
+            href='https://cse.engin.umich.edu/'
             className='link-yellow'
             target='_blank'
             rel='noopener noreferrer'>
