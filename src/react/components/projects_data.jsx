@@ -44,41 +44,12 @@ export const project_data = [
         },
         {
           title: 'Smart Mirror',
-          tech: ['Javascript', 'Electron', 'Raspberry-Pi',],
-          description: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
+          tech: ['JavaScript', 'Electron', 'Raspberry-Pi',],
+          preview: 'I started this project as a direct answer to one of my daily problems, and it turned out pretty well.',
+          description: 'I did a few weeks of YouTube research on how to build one and started the build over the summer. For me, the hardest part was creating a frame that would fit the mirror since I had no previous experience with woodworking. After that, I was able to connect everything up a set up a Raspberry PI server that I could remote into and install the Magic Mirror framework. I spent about a month configuring this huge JavaScript library, even using some third-party code (specifically for the calendar), and tried to get everything to my liking. I am pretty proud of the result. I can finally see the weather, date, and whatever I have to do that day in the mirror!',
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'red',
-        },
-        {
-          title: 'image_card',
-          images: [ 'images/buffer.png', 'images/buffer2.jpg', 'images/buffer3.png',],
-        },
-        {
-          title: 'Buffer Overflow Security Analysis',
-          tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
-          description: 'An investigation into various control-flow hijacking vulnerabilities in application software. Focused on buffer overflows and remote-orientated programming.',
-          report: 'https://pedroz.dev/pdfs/stack_smashing.pdf',
-          external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
-          color: 'cyan',
-        },
-      ]
-    },
-    {
-      header: '2020',
-      color: 'green',
-      projects: [
-        {
-          title: 'image_card',
-          images: [ 'images/new_website.png',],
-        },
-        {
-          title: 'Personal Website Update',
-          description: 'Updated and rewrote my entire personal website using React and SCSS for this year\'s internship search. I hope you like it! ',
-          tech: ['Bootstrap', 'React', 'SCSS', 'Javascript'],
-          color: 'yellow',
-          github: 'https://github.com/pedroz2/pedroz2.github.io',
-          external: 'https://pedroz.dev/',
         },
         {
           title: 'image_card',
@@ -87,8 +58,49 @@ export const project_data = [
         {
           title: 'MapReduce Server Framework',
           description: 'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Bootstrap'],
+          tech: ['Python', 'Multi-Threading', 'Sockets', 'MapReduce'],
+          color: 'cyan',
+        }, 
+      ]
+    },
+    {
+      header: '2020',
+      color: 'green',
+      projects: [
+        {
+          title: 'image_card',
+          images: [ 'images/mapreduce.png',],
+        },
+        {
+          title: 'MapReduce Server Framework',
+          preview: 'This project is centered around building a distributed server to run MapReduce jobs.',
+          description: 'MapReduce is a well-known data processing algorithm that is specifically designed to be run in parallel across multiple machines for large datasets. At a high level, MapReduce can perform operations (such as counting words) at speeds far faster than any single computer due to it\'s special ability to split up work across multiple processors. This framework is designed to facilitate MapReduce jobs in a scalable fashion, using one Master thread and an arbitrary amount of Worker threads. Each Worker is able to communicate with the Master thread using both TCP and UDP Sockets to exchange information such as task assignments, heartbeats, worker errors, and status updates. ',
+          tech: ['Python', 'Multi-Threading', 'Sockets', 'MapReduce'],
           color: 'red',
+        }, 
+        {
+          title: 'image_card',
+          images: [ 'images/cuda.png',],
+        },
+        {
+          title: 'Parallel RGB Image Convolution',
+          preview: 'This is one of the projects from my Applied Parallel Computing with GPUs class.',
+          description: 'Convolution can be used for many purposes in Image Processing, such as blurring, sharpening, edge detection, and more. This CUDA program runs on the University\'s GreatLakes computation cluster, and applies an arbitrary mask over each pixel in an image to achieve a desired effect on an image. Since it runs on a GPU (rather than a normal, serial CPU) it is highly parallel and can compute over extremely large data sets in reasonable time. ',
+          tech: ['C', 'CUDA', 'Parallel-Computation',],
+          color: 'red',
+        },        
+        {
+          title: 'image_card',
+          images: [ 'images/new_website.png',],
+        },
+        {
+          title: 'Personal Website Update',
+          preview: 'I hope you like what I\'ve done with the place :)',
+          description: 'Updated and rewrote my personal website using React and SCSS for this year\'s internship search - it was originally forked off of Shannon Lau\'s website (credited in my footer). I\'m still currently working on a few things for this website, such as how I am displaying my project cards. For now, I think I\'ve settled on a design I like.',
+          tech: ['React', 'SCSS', 'JavaScript'],
+          color: 'yellow',
+          github: 'https://github.com/pedroz2/pedroz.dev',
+          external: 'https://pedroz.dev/',
         },
         {
           title: 'image_card',
@@ -97,7 +109,8 @@ export const project_data = [
         {
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
-          description: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API. Imitates almost all of the functionality (and some of the looks) of the actual social media application. ',
+          preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application through a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'blue',
         },
         {
@@ -106,18 +119,28 @@ export const project_data = [
         },
         {
           title: 'Video Streaming Proxy',
-          tech: ['C++', 'Multi-Threading', 'Sockets', 'HTTP', 'DNS'],
-          description: 'Developed a video streaming proxy service with a team of 3 students utilizing C++ libraries for multithreading, sockets, and DNS queries. Incorporates features such as adaptive bitrate selection, throughput estimation, and multi-server load balancing to improve latency and buffering time of multiple video streams by over 40%',
+          tech: ['C++', 'Multi-Threading', 'Sockets', 'DNS',],
+          preview: 'A program that was designed to help streamline a user\'s video watching experience using some clever techniques.',
+          description: 'With video traffic dominating much of the internet these days, building a project around that seemed very interesting. I worked with a team of 3 other students to create a mock proxy service that utilizes C++ libraries for multi-threading, sockets, and DNS services. We implemented techniques such as adaptive bitrate selection, throughput estimation, and DNS Server load balancing (using Content Delivery Networks) to improve the latency and buffering time of concurrent video streams by over 40%.',
           color: 'green',
         },
         {
           title: 'image_card',
-          images: [ 'images/buffer.png', 'images/buffer2.jpg', 'images/buffer3.png',],
+          images: [ 'images/udp.jpg',],
         },
         {
-          title: 'Buffer Overflow Security Analysis',
-          tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
-          description: 'An investigation into various control-flow hijacking vulnerabilities in application software. Focused on buffer overflows and remote-orientated programming.',
+          title: 'Reliable Transport Protocol',
+          tech: ['C++', 'UDP', 'Sockets',],
+          preview: 'This project was an interesting challenge: build a reliable transport protocol ontop of UDP.',
+          description: 'Knowing that UDP effectively screams into the void with no idea if you recieved the data, guaranteeing reliable transport is difficult. The idea behind this project is that you are effectively building your own version of TCP (the main transport protocol used by the internet today) from scratch. The protocol works on the simple idea that each outgoing packet has a corresponding acknowledgement packet sent by the reciever. If you do not get an acknowledgement from the reciever, you retransmit the packet. It also includes other important features such as sliding window transmission, buffering out-of-order packets, and selective repeat. ',
+          external: 'https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/',
+          color: 'green',
+        },
+        {
+          title: 'Control Flow Hijacking',
+          tech: ['Python', 'C', 'GDB',],
+          preview: 'Who knew that writing past the end of an array in C could be so fun.',
+          description: 'This project focused on control flow hijacking attacks, specifically buffer overflows and remote-orientated programming. We were giving multiple programs written in C with varying levels of security and wrote buffer overflow attacks that would hijack the call stack of the program to run malicious code. I learned a lot about GDB while working on this project, since we would use it to inspect the memory and individual instructions of the program to learn exactly what we would need to overwrite in order to gain control of the call stack.',
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
           color: 'cyan',
         }, 
@@ -127,8 +150,9 @@ export const project_data = [
         },
         {
           title: 'LC-2K Linker, Pipelined Processor, and Cache Simulator',
-          description: 'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
+          preview: 'This was the main project in Michigan\'s Computer Architecture course, easily one of my favorite classes to date.',
+          description: 'LC-2K is a educational Microprocessor and Instruction Set created by the Michigan EECS department to help students understand computers at the assembly instruction level. Throughout the course of a semester, we created our own miniature processor - first starting with a simple instruction assembler and simulator. We then added variable labeling and file linking functionality, so we could write LC-2K programs more easily and use multiple files. The next step was to rewrite our simulator to emulate a pipelined processor and add branching functionality to speed up execution and create more complex programs. Lastly, we programmed a memory cache alongside our processor and added functionality so the simulator could use it. ',
+          tech: ['C', 'Computer-Architecture',],
           color: 'cyan',
         },
         {
@@ -137,9 +161,10 @@ export const project_data = [
         },
         {
           title: 'Website Penetration Testing',
-          tech: ['Python', 'C', 'GDB', 'Computer-Architecture',],
-          description: 'An investigation into various web-security penetration attacks including SQL Injection, Cross Site Scripting (XSS), and Cross Site Request Forgery (CSRF).',
+          preview: 'An investigation into various web-security penetration attacks.',
+          description: 'This project explored the use of attacks like SQL Injection, Cross Site Scripting (XSS), and Cross Site Request Forgery (CSRF) on a unsecured, sample website. We were given various levels of security (For instance, XSS defenses included removing <script> tag, removing most HTML tags, and removing [;\'\\"] symbols) and expected to create a valid attack that would execute an arbritrary malicious payload on the website\'s backend. I had a lot of fun doing this project since it required a lot of clever thinking and was a very good learning experience for my future self. ',
           external: 'https://owasp.org/www-community/vulnerabilities/Buffer_Overflow',
+          tech: ['Python', 'SQL', 'JavaScript',],
           color: 'cyan',
         }, 
         {
@@ -147,9 +172,10 @@ export const project_data = [
           images: [ 'images/mongo.png',],
         },
         {
-          title: 'Fakebook MongoDB Database',
-          description: 'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
+          title: 'Fakebook SQL/MongoDB Database',
+          preview: 'An exercise in database management for the fictional company Fakebook.',
+          description: 'The purpose of this project was to build familiarity with both relational and non-relational database management systems. Specifically, we had to create mock databases using MongoDB and PostgreSQL that would store data for major features such as Users, Messages, Photos, and Events. We were given a built application with a front-end and we were reponsible for designing, building, and executing relevant queries inside of a C++ application that would allow the app to function. These queries ranged from very easy (find all users living in a specific city) to very hard (for each city, find the average friend count of users in the same city using MapReduce).',
+          tech: ['C++', 'SQL', 'MongoDB', 'PostgreSQL',],
           color: 'red',
         },
         {
@@ -158,8 +184,9 @@ export const project_data = [
         },
         {
           title: 'Cryptography Analysis',
-          description: 'Description is on the way!',
-          tech: ['Python', 'Flask', 'Jinja2', 'Spotify API', 'SQL'],
+          preview: 'An investigation into the vulnerabilites of old cryptographic technology.',
+          description: 'This project specifically investigated a few well-known vulnerabilites including the MD5/SHA length-extension attack and hash collisions, Cipher Frequency Analysis, RSA Signature forgery, and CBC Padding Oracle Attacks. All of these vulnerabilites are well-documented and were instrumental in the process of advancing modern cryptography. This was a very cool project to do, since it is effectively the real-life equivalent of the hacking you seen in movies or television.',
+          tech: ['Python', 'Encyption', 'Hashing',],
           color: 'green',
         },     
       ]
@@ -175,8 +202,8 @@ export const project_data = [
         {
           title: 'Weather Balloon Payload',
           tech: ['C/C++', 'Arduino', 'Soldering', 'I2C', 'MATLAB'],
-          description: 'Designed, built, tested, and deployed atmospheric instrumentation to analyze wind shear forces experienced by commercial airliners using a high-altitude weather balloon. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it. This project is probably my favorite to date - it won a class award!',
-          images: [ 'images/path.png', 'images/earth.JPG', 'images/earth1.JPG', 'images/earth2.JPG', 'images/earth3.JPG', 'images/tmp36.jpg', 'images/bare_pcb.jpg', 'images/altium_pcb.png',],
+          preview: 'This project is probably my favorite to date - it won a class award!',
+          description: 'This semester-long, 5 person project went from learning the basics of electrical wiring and soldering to launching a fully operational and to-specification atmospheric weather balloon. Our group elected to include two extra sensors, the MPU-9250 Gyroscope/Accelerometer, and the BMP-280 Barometer - with these two sensors, we were able to deduce wind shearing forces at different altitudes throughout Earth’s atmosphere. The intended real-world application of this project was to record the expected turbulence experienced by commercial airliners, and more specifically, how to avoid it.',
           github: 'https://github.com/pedroz2/weather_balloon',
           report: 'https://pedroz.dev/pdfs/final_report.pdf',
           poster: 'https://pedroz.dev/pdfs/team12_poster.pdf',
@@ -188,8 +215,9 @@ export const project_data = [
         },
         {
           title: 'Smart Mirror',
-          tech: ['Javascript', 'Electron', 'Raspberry-Pi',],
-          description: 'Displaying morning routine information such as weather, music, and calendar on a one-way mirror for easy use. Runs on a Raspberry Pi built into the mirror using an open-source JavaScript framework called Magic Mirror.',
+          tech: ['JavaScript', 'Electron', 'Raspberry-Pi',],
+          preview: 'I started this project as a direct answer to one of my daily problems, and it turned out pretty well.',
+          description: 'I did a few weeks of YouTube research on how to build one and started the build over the summer. For me, the hardest part was creating a frame that would fit the mirror since I had no previous experience with woodworking. After that, I was able to connect everything up a set up a Raspberry PI server that I could remote into and install the Magic Mirror framework. I spent about a month configuring this huge JavaScript library, even using some third-party code (specifically for the calendar), and tried to get everything to my liking. I am pretty proud of the result. I can finally see the weather, date, and whatever I have to do that day in the mirror!',
           github: 'https://github.com/pedroz2/smart_mirror',
           external: 'https://magicmirror.builders/',
           color: 'green',
@@ -200,7 +228,8 @@ export const project_data = [
         },
         {
           title: 'Personal Website V1',
-          description: 'This was a fun project that started as a way to further develop my front-end skills and ended as a moderate obsession. I am pretty proud of how it turned out, it looks pretty professional given the expectations I had going into it.',
+          preview: 'The first iteration of my online portfolio.',
+          description: 'This was a fun project that started as a way to further develop my front-end skills and ended as a moderate obsession. I am pretty proud of how it turned out, it looks pretty professional given the expectations I had going into it.  It first started as a React template website, but then I started using Hugo as a static site generator. I found the themes system in Hugo to be too much of a hassle so I switched to Jekyll in hopes of remedying that, but it didn\'t. I gave up on trying to use somebody else\'s theme and finally made my own.',
           tech: ['HTML', 'CSS', 'JavaScript', 'Jekyll', 'Ruby'],
           external: 'https://pedroz.dev/old_website/',
           github: 'https://github.com/pedroz2/pedroz.dev/tree/old_website',
@@ -212,7 +241,8 @@ export const project_data = [
         },
         {
           title: 'Treasure Hunt',
-          description: 'This project was a deep dive on specific data structures, specifically the stack and queue. In summary, we were given a 2D 100x100 grid of a treasure map with land, water, obstructions, and the treasure. Our task was to find the treasure coordinate and more importantly, the correct path to that coordinate depending on the search mode used (Stack vs. Queue searching strategies). This was my first project you couldn\'t just code in one sitting - you needed to plan and think about the correct Data Structures to use for each part of the program.',
+          preview: 'A deep dive on specific data structures, specifically the stack and queue.',
+          description: 'We were given a 2D 100x100 grid of a treasure map with land, water, obstructions, and the treasure. Our task was to find the treasure coordinate and more importantly, the correct path to that coordinate depending on the search mode used (Stack vs. Queue searching strategies). This was my first project you couldn\'t just code in one sitting - you needed to plan and think about the correct Data Structures to use for each part of the program.',
           tech: ['C++',],
           color: 'cyan',
         },
@@ -222,7 +252,7 @@ export const project_data = [
         },
         {
           title: 'Log Manager',
-          description: 'This project consisted of a user inputting a huge file of logs. Our task was to organize and index it, then allow the user to perform a handle of commands (such as print, sort, keyword search, time search, etc) to output a text file with only the logs they want. The main learning goal of this project was to understand the time complexities of different data structures and algorithms, as we had to fit all of the commands given within their relevant time allotment to pass the test.',
+          description: 'This project consisted of a user inputting a huge file of logs. Our task was to organize and index it, then allow the user to perform a handful of commands (such as print, sort, keyword search, time search, etc) to output a text file with only the logs they want. The main learning goal of this project was to understand the time complexities of different data structures and algorithms, as we had to fit all of the commands given within their relevant time allotment to pass the test.',
           tech: ['C++',],
           color: 'orange',
         },
@@ -248,6 +278,7 @@ export const project_data = [
         },     
         {
           title: 'Content-Aware Image Resizing',
+          preview: 'Still to this day, the concept of this program is insanely cool to me.',
           description: 'This was a tool that parsed individual pixels of an image and calculated the contrast between its surrounding pixels. Depending on the input you give the program (output length/width, crop/resize), it uses the contrast between sections of the image to decide where we can afford to resize an image without distorting its significant parts too much. The idea behind this project was to find unimportant areas in the image that we can use to resize the image in hopes of changing the contents of the image as little as possible from the perspective of the viewer.',
           tech: ['C++',],
           color: 'blue',
@@ -258,8 +289,8 @@ export const project_data = [
         },     
         {
           title: 'Euchre Simulator',
-          description:
-            'This project allowed users to have either 2 players playing against each other, or a few flavors of AI to play against.  It was my first project that was too large and complex to this about all at once. You had to break it up and use a wonderful thing called abstraction, which assumes that the other components of your program would work correctly (spoiler: they didn\'t). This was probably one of my most memorable projects, as my partner and I stayed up to coding until around 5 am to finish the project early for an upcoming busy week. It had countless edge cases that you had to account for and was my first introduction to more advanced debugging tools.',
+          preview: 'This program simulated Euchre (a complex card game popular in Michigan) between 2 human players, or a few flavors of AI.',
+          description: 'It was my first project that was too large and complex to this about all at once. You had to break it up and use a wonderful thing called abstraction, which assumes that the other components of your program would work correctly (spoiler: they didn\'t). This was probably one of my most memorable projects, as my partner and I stayed up to coding until around 5 am to finish the project early for an upcoming busy week. It had countless edge cases that you had to account for and was my first introduction to more advanced debugging tools.',
           tech: ['C++',],
           color: 'yellow',
         },
@@ -269,8 +300,8 @@ export const project_data = [
         },     
         {
           title: 'Piazza Post Classifier',
-          description: 'The Piazza Post Classifier took in a large number of forum posts from Piazza and used machine learning/natural language processing with a dataset of prelabeled Piazza posts to generate connections between common keywords and their labels. Further posts can be entered into the program which then returns its prediction on the suggested topic the classifier thinks the post is from. I enjoyed this project as it was my first introduction to big data and using machine learning techniques to process and use that data. It was a neat project that had a satisfying result.',
-          tech: ['C++',],
+          description: 'The Piazza Post Classifier took in a large number of forum posts from Piazza and used natural language processing with a dataset of prelabeled Piazza posts to generate connections between common keywords and their labels. Further posts can be entered into the program which then returns its prediction on the suggested topic the classifier thinks the post is from. I enjoyed this project as it was my first introduction to big data and using machine learning techniques to process and use that data. It was a neat project that had a satisfying result.',
+          tech: ['C++', 'Natural-Language-Processing'],
           color: 'red',
         },
         {
@@ -279,8 +310,7 @@ export const project_data = [
         },     
         {
           title: 'Reverse Polish Notation Calculator',
-          preview: 'The idea behind the Reverse Polish Notation (RPN) Calculator is that it takes the arguments first, and then the operations that will be performed between them.',
-          description: 'A RPN calculator is effectively a modern calculators in reverse - for example, 1+2-3 would be 1,2+3- in the RPN calculator. This project was a cool way of demonstrating and teaching the stack data structure, which we also made by creating a wrapper on the C++ vector library.',
+          description: 'The idea behind the everse Polish Notation (RPN) calculator is that it takes the arguments first, and then the operations that will be performed between them. Modern calculaters do that in reverse - for example, 1+2-3 would be 1,2+3- in the RPN calculator. This project was a cool way of demonstrating and learning the stack data structure, which we also made by creating a wrapper on the C++ vector library.',
           tech: ['C++',],
           color: 'green',
         },
@@ -290,8 +320,7 @@ export const project_data = [
         },     
         {
           title: 'Braking Coefficient',
-          preview: 'This program simulated a shuttle landing with given system parameters including initial velocity, air braking coefficient, braking distance, and a few others.',
-          description: 'It would then return the most optimal braking coefficient - one that would use up as much of the runway as possible to reduce passenger discomfort, but also still result in a safe landing. The purpose of this project was to get a grasp on using a program to help solve complex math and physics problems - it worked pretty well.',
+          description: 'This program simulated a shuttle landing with given system parameters including initial velocity, air braking coefficient, braking distance, and a few others. It would then return the most optimal braking coefficient - one that would use up as much of the runway as possible to reduce passenger discomfort, but also still result in a safe landing. The purpose of this project was to get a grasp on using a program to help solve complex math and physics problems - it worked pretty well.',
           tech: ['C++',],
           color: 'yellow',
         },
