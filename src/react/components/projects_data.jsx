@@ -11,7 +11,7 @@ export const project_data = [
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" - this was no different. What better way to learn how it\'s done than to recreate it yourself? This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'green',
         },
         {
@@ -112,7 +112,7 @@ export const project_data = [
           title: 'Instagram Clone Web Application',
           tech: ['Python', 'React', 'Flask', 'SQL'],
           preview: 'A fully functional Instagram Clone using dynamically-generated client side pages and a REST API.',
-          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" and this was no different. What better way to learn how it\'s done than to recreate it yourself! This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
+          description: 'I think a lot of Computer Science students fantasize about creating the "next big app" - this was no different. What better way to learn how it\'s done than to recreate it yourself? This project imitates the same functionality of the real-world application using a React front end, Flask/Python backend, and SQL database. It was pretty fun to build since it gave me an interesting look into the process of building large, scalable online applications.',
           color: 'green',
         },
         {
