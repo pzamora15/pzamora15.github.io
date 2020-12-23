@@ -6,6 +6,19 @@ class Experience extends Component {
   state = {
     experiences: [
       {
+        company: 'Amazon',
+        url: 'https://www.amazon.com/',
+        title: 'Software Development Engineer Intern',
+        start: 'May 2021',
+        end: 'August 2021',
+        city: 'San Francisco',
+        state: 'CA',
+        previews: [
+          'I am officially an incoming Amazon SDE intern for Summer 2021!',
+        ],
+        color: 'link-purple',
+      },
+      {
         company: 'USHR Inc.',
         url: 'https://www.ushrauto.com/',
         title: 'Software Engineer Intern',
